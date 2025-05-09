@@ -1,0 +1,32 @@
+2025-05-08 14:05:36,766 - INFO - Testing web app functionality
+2025-05-08 14:05:36,770 - INFO - Creating HTML templates
+2025-05-08 14:05:36,770 - INFO - Templates created successfully
+2025-05-08 14:05:36,770 - INFO - Creating HTML templates
+2025-05-08 14:05:36,770 - INFO - Templates created successfully
+2025-05-08 14:05:36,770 - INFO - Critical file status:
+2025-05-08 14:05:36,770 - INFO -   - templates/index.html: ✓
+2025-05-08 14:05:36,770 - INFO -   - templates/cluster.html: ✓
+2025-05-08 14:05:36,770 - INFO -   - static/cluster_data.json: ✓
+2025-05-08 14:05:36,770 - INFO - Starting browser thread for http://localhost:5007
+2025-05-08 14:05:36,770 - INFO - Starting Flask server on port 5007
+2025-05-08 14:05:36,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://192.168.33.123:5007
+2025-05-08 14:05:36,774 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 14:05:38,771 - INFO - Opening browser at http://localhost:5007
+2025-05-08 14:05:38,960 - INFO - Rendering index page
+2025-05-08 14:05:38,964 - INFO - 127.0.0.1 - - [08/May/2025 14:05:38] "GET / HTTP/1.1" 200 -
+2025-05-08 14:05:39,009 - INFO - 127.0.0.1 - - [08/May/2025 14:05:39] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-08 14:05:39,053 - INFO - Fetching cluster data
+2025-05-08 14:05:39,053 - INFO - 127.0.0.1 - - [08/May/2025 14:05:39] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-08 14:05:42,344 - INFO - Showing cluster 0
+2025-05-08 14:05:42,347 - INFO - 127.0.0.1 - - [08/May/2025 14:05:42] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:01:38,852 - INFO - Rendering index page
+2025-05-10 00:01:38,925 - INFO - 127.0.0.1 - - [10/May/2025 00:01:38] "GET / HTTP/1.1" 200 -
+2025-05-10 00:01:39,149 - INFO - 127.0.0.1 - - [10/May/2025 00:01:39] "GET /static/clusters.png HTTP/1.1" 200 -
+2025-05-10 00:01:39,665 - INFO - Fetching cluster data
+2025-05-10 00:01:39,685 - INFO - 127.0.0.1 - - [10/May/2025 00:01:39] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:01:39,798 - INFO - 127.0.0.1 - - [10/May/2025 00:01:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 00:01:42,877 - INFO - Showing cluster 0
+2025-05-10 00:01:42,885 - INFO - 127.0.0.1 - - [10/May/2025 00:01:42] "GET /cluster/0 HTTP/1.1" 200 -

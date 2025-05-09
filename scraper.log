@@ -1,0 +1,982 @@
+2025-05-08 00:13:46,685 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 00:13:46,685 - INFO - =============================
+2025-05-08 00:13:46,685 - INFO - 
+Step 1: Web scraping
+2025-05-08 00:13:46,685 - INFO - Starting web scraping process
+2025-05-08 00:13:46,685 - INFO - Scraping from NewsDay
+2025-05-08 00:13:46,685 - INFO -   Scraping category: Business
+2025-05-08 00:13:46,685 - INFO -     Accessing URL: https://www.newsday.co.zw/category/6/business
+2025-05-08 00:13:48,417 - INFO -     Found 0 article links
+2025-05-08 00:13:48,417 - INFO -   Scraping category: Politics
+2025-05-08 00:13:48,417 - INFO -     Accessing URL: https://www.newsday.co.zw/category/5/politics
+2025-05-08 00:13:49,456 - INFO -     Found 0 article links
+2025-05-08 00:13:49,456 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:13:49,456 - INFO -     Accessing URL: https://www.newsday.co.zw/category/15/arts-culture
+2025-05-08 00:13:51,073 - INFO -     Found 0 article links
+2025-05-08 00:13:51,073 - INFO -   Scraping category: Sports
+2025-05-08 00:13:51,073 - INFO -     Accessing URL: https://www.newsday.co.zw/category/7/sport
+2025-05-08 00:13:52,506 - INFO -     Found 0 article links
+2025-05-08 00:13:52,507 - INFO - Scraping from The Herald
+2025-05-08 00:13:52,507 - INFO -   Scraping category: Business
+2025-05-08 00:13:52,507 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/business
+2025-05-08 00:13:52,725 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/business, status code: 403
+2025-05-08 00:13:52,726 - INFO -   Scraping category: Politics
+2025-05-08 00:13:52,726 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/politics
+2025-05-08 00:13:52,890 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/politics, status code: 403
+2025-05-08 00:13:52,890 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:13:52,890 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/entertainment
+2025-05-08 00:13:53,050 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/entertainment, status code: 403
+2025-05-08 00:13:53,050 - INFO -   Scraping category: Sports
+2025-05-08 00:13:53,050 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/sport
+2025-05-08 00:13:53,236 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/sport, status code: 403
+2025-05-08 00:13:53,236 - INFO - Scraping from ZimEye
+2025-05-08 00:13:53,236 - INFO -   Scraping category: Business
+2025-05-08 00:13:53,236 - INFO -     Accessing URL: https://www.zimeye.net/category/business/
+2025-05-08 00:13:54,129 - INFO -     Found 0 article links
+2025-05-08 00:13:54,129 - INFO -   Scraping category: Politics
+2025-05-08 00:13:54,129 - INFO -     Accessing URL: https://www.zimeye.net/category/politics/
+2025-05-08 00:13:55,135 - WARNING -     Failed to access https://www.zimeye.net/category/politics/, status code: 404
+2025-05-08 00:13:55,135 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:13:55,135 - INFO -     Accessing URL: https://www.zimeye.net/category/entertainment/
+2025-05-08 00:13:56,158 - WARNING -     Failed to access https://www.zimeye.net/category/entertainment/, status code: 404
+2025-05-08 00:13:56,158 - INFO -   Scraping category: Sports
+2025-05-08 00:13:56,158 - INFO -     Accessing URL: https://www.zimeye.net/category/sports/
+2025-05-08 00:13:57,592 - WARNING -     Failed to access https://www.zimeye.net/category/sports/, status code: 404
+2025-05-08 00:13:57,592 - INFO - Scraping from The Standard
+2025-05-08 00:13:57,592 - INFO -   Scraping category: Business
+2025-05-08 00:13:57,592 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/business
+2025-05-08 00:13:58,103 - WARNING -     Failed to access https://www.thestandard.co.zw/category/business, status code: 404
+2025-05-08 00:13:58,103 - INFO -   Scraping category: Politics
+2025-05-08 00:13:58,103 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/politics
+2025-05-08 00:13:58,615 - WARNING -     Failed to access https://www.thestandard.co.zw/category/politics, status code: 404
+2025-05-08 00:13:58,615 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:13:58,615 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/arts-culture
+2025-05-08 00:13:59,229 - WARNING -     Failed to access https://www.thestandard.co.zw/category/arts-culture, status code: 404
+2025-05-08 00:13:59,229 - INFO -   Scraping category: Sports
+2025-05-08 00:13:59,230 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/sport
+2025-05-08 00:13:59,741 - WARNING -     Failed to access https://www.thestandard.co.zw/category/sport, status code: 404
+2025-05-08 00:13:59,742 - INFO - Scraping from iHarare
+2025-05-08 00:13:59,742 - INFO -   Scraping category: Business
+2025-05-08 00:13:59,742 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 00:14:01,109 - INFO -     Found 0 article links
+2025-05-08 00:14:01,109 - INFO -   Scraping category: Politics
+2025-05-08 00:14:01,109 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 00:14:01,722 - INFO -     Found 0 article links
+2025-05-08 00:14:01,723 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:14:01,723 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 00:14:02,417 - INFO -     Found 0 article links
+2025-05-08 00:14:02,417 - INFO -   Scraping category: Sports
+2025-05-08 00:14:02,417 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 00:14:03,121 - WARNING -     Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 00:14:03,122 - WARNING - No articles were scraped successfully.
+2025-05-08 00:14:03,122 - INFO - Creating dummy data for testing
+2025-05-08 00:14:03,131 - INFO - 
+Step 2: Clustering articles
+2025-05-08 00:14:03,131 - INFO - Preprocessing article content for clustering
+2025-05-08 00:14:03,143 - INFO - Vectorized 100 articles with 67 features
+2025-05-08 00:14:03,144 - INFO - Clustering articles into 4 clusters
+2025-05-08 00:14:03,195 - INFO - Clustering completed
+2025-05-08 00:14:03,196 - INFO - Creating cluster visualizations
+2025-05-08 00:14:03,606 - INFO - Saved cluster visualization to static/clusters.png
+2025-05-08 00:14:03,607 - INFO - Saving cluster data for web display
+2025-05-08 00:14:03,612 - INFO - Saved cluster data to static/cluster_data.json
+2025-05-08 00:14:03,613 - INFO - 
+Cluster Statistics:
+2025-05-08 00:14:03,613 - INFO - Cluster 0: 25 articles
+2025-05-08 00:14:03,613 - INFO -   - Sports: 25 articles
+2025-05-08 00:14:03,613 - INFO - 
+2025-05-08 00:14:03,613 - INFO - Cluster 1: 25 articles
+2025-05-08 00:14:03,613 - INFO -   - Arts/Culture/Celebrities: 25 articles
+2025-05-08 00:14:03,613 - INFO - 
+2025-05-08 00:14:03,613 - INFO - Cluster 2: 25 articles
+2025-05-08 00:14:03,613 - INFO -   - Business: 25 articles
+2025-05-08 00:14:03,613 - INFO - 
+2025-05-08 00:14:03,613 - INFO - Cluster 3: 25 articles
+2025-05-08 00:14:03,613 - INFO -   - Politics: 25 articles
+2025-05-08 00:14:03,613 - INFO - 
+2025-05-08 00:14:03,614 - INFO - 
+Step 3: Setting up web application
+2025-05-08 00:14:03,618 - INFO - Creating HTML templates for web display
+2025-05-08 00:14:03,618 - INFO - HTML templates created successfully
+2025-05-08 00:14:03,618 - INFO - Starting web server at http://localhost:5000
+2025-05-08 00:20:13,805 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 00:20:13,807 - INFO - =============================
+2025-05-08 00:20:13,807 - INFO - 
+Step 1: Web scraping
+2025-05-08 00:20:13,807 - INFO - Starting web scraping process
+2025-05-08 00:20:13,807 - INFO - Scraping from NewsDay
+2025-05-08 00:20:13,807 - INFO -   Scraping category: Business
+2025-05-08 00:20:13,807 - INFO -     Accessing URL: https://www.newsday.co.zw/category/6/business
+2025-05-08 00:20:15,482 - INFO -     Found 0 article links
+2025-05-08 00:20:15,482 - INFO -   Scraping category: Politics
+2025-05-08 00:20:15,483 - INFO -     Accessing URL: https://www.newsday.co.zw/category/5/politics
+2025-05-08 00:20:16,317 - INFO -     Found 0 article links
+2025-05-08 00:20:16,317 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:20:16,317 - INFO -     Accessing URL: https://www.newsday.co.zw/category/15/arts-culture
+2025-05-08 00:20:18,147 - INFO -     Found 0 article links
+2025-05-08 00:20:18,147 - INFO -   Scraping category: Sports
+2025-05-08 00:20:18,147 - INFO -     Accessing URL: https://www.newsday.co.zw/category/7/sport
+2025-05-08 00:20:19,573 - INFO -     Found 0 article links
+2025-05-08 00:20:19,574 - INFO - Scraping from The Herald
+2025-05-08 00:20:19,574 - INFO -   Scraping category: Business
+2025-05-08 00:20:19,574 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/business
+2025-05-08 00:20:20,102 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/business, status code: 403
+2025-05-08 00:20:20,102 - INFO -   Scraping category: Politics
+2025-05-08 00:20:20,102 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/politics
+2025-05-08 00:20:20,349 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/politics, status code: 403
+2025-05-08 00:20:20,349 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:20:20,349 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/entertainment
+2025-05-08 00:20:20,567 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/entertainment, status code: 403
+2025-05-08 00:20:20,567 - INFO -   Scraping category: Sports
+2025-05-08 00:20:20,567 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/sport
+2025-05-08 00:20:20,905 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/sport, status code: 403
+2025-05-08 00:20:20,906 - INFO - Scraping from ZimEye
+2025-05-08 00:20:20,906 - INFO -   Scraping category: Business
+2025-05-08 00:20:20,906 - INFO -     Accessing URL: https://www.zimeye.net/category/business/
+2025-05-08 00:20:22,015 - INFO -     Found 0 article links
+2025-05-08 00:20:22,015 - INFO -   Scraping category: Politics
+2025-05-08 00:20:22,016 - INFO -     Accessing URL: https://www.zimeye.net/category/politics/
+2025-05-08 00:20:22,579 - WARNING -     Failed to access https://www.zimeye.net/category/politics/, status code: 404
+2025-05-08 00:20:22,579 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:20:22,579 - INFO -     Accessing URL: https://www.zimeye.net/category/entertainment/
+2025-05-08 00:20:23,840 - WARNING -     Failed to access https://www.zimeye.net/category/entertainment/, status code: 404
+2025-05-08 00:20:23,840 - INFO -   Scraping category: Sports
+2025-05-08 00:20:23,840 - INFO -     Accessing URL: https://www.zimeye.net/category/sports/
+2025-05-08 00:20:25,068 - WARNING -     Failed to access https://www.zimeye.net/category/sports/, status code: 404
+2025-05-08 00:20:25,069 - INFO - Scraping from The Standard
+2025-05-08 00:20:25,069 - INFO -   Scraping category: Business
+2025-05-08 00:20:25,069 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/18/business
+2025-05-08 00:20:25,619 - INFO -     Found 0 article links
+2025-05-08 00:20:25,619 - INFO -   Scraping category: Politics
+2025-05-08 00:20:25,620 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/12/local-news
+2025-05-08 00:20:26,211 - INFO -     Found 0 article links
+2025-05-08 00:20:26,211 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:20:26,211 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/25/standard-people
+2025-05-08 00:20:26,752 - INFO -     Found 0 article links
+2025-05-08 00:20:26,752 - INFO -   Scraping category: Sports
+2025-05-08 00:20:26,752 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/19/sport
+2025-05-08 00:20:27,262 - INFO -     Found 0 article links
+2025-05-08 00:20:27,263 - INFO - Scraping from iHarare
+2025-05-08 00:20:27,263 - INFO -   Scraping category: Business
+2025-05-08 00:20:27,263 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 00:20:28,789 - INFO -     Found 0 article links
+2025-05-08 00:20:28,789 - INFO -   Scraping category: Politics
+2025-05-08 00:20:28,789 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 00:20:29,403 - INFO -     Found 0 article links
+2025-05-08 00:20:29,403 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:20:29,403 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 00:20:30,019 - INFO -     Found 0 article links
+2025-05-08 00:20:30,019 - INFO -   Scraping category: Sports
+2025-05-08 00:20:30,019 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 00:20:30,598 - WARNING -     Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 00:20:30,598 - WARNING - No articles were scraped successfully.
+2025-05-08 00:20:30,598 - INFO - Creating dummy data for testing
+2025-05-08 00:20:30,605 - INFO - 
+Step 2: Clustering articles
+2025-05-08 00:20:30,605 - INFO - Preprocessing article content for clustering
+2025-05-08 00:20:30,616 - INFO - Vectorized 100 articles with 67 features
+2025-05-08 00:20:30,616 - INFO - Clustering articles into 4 clusters
+2025-05-08 00:20:30,664 - INFO - Clustering completed
+2025-05-08 00:20:30,664 - INFO - Creating cluster visualizations
+2025-05-08 00:20:31,096 - INFO - Saved cluster visualization to static/clusters.png
+2025-05-08 00:20:31,097 - INFO - Saving cluster data for web display
+2025-05-08 00:20:31,102 - INFO - Saved cluster data to static/cluster_data.json
+2025-05-08 00:20:31,102 - INFO - 
+Cluster Statistics:
+2025-05-08 00:20:31,102 - INFO - Cluster 0: 25 articles
+2025-05-08 00:20:31,102 - INFO -   - Sports: 25 articles
+2025-05-08 00:20:31,102 - INFO - 
+2025-05-08 00:20:31,102 - INFO - Cluster 1: 25 articles
+2025-05-08 00:20:31,102 - INFO -   - Arts/Culture/Celebrities: 25 articles
+2025-05-08 00:20:31,102 - INFO - 
+2025-05-08 00:20:31,102 - INFO - Cluster 2: 25 articles
+2025-05-08 00:20:31,103 - INFO -   - Business: 25 articles
+2025-05-08 00:20:31,103 - INFO - 
+2025-05-08 00:20:31,103 - INFO - Cluster 3: 25 articles
+2025-05-08 00:20:31,103 - INFO -   - Politics: 25 articles
+2025-05-08 00:20:31,103 - INFO - 
+2025-05-08 00:20:31,103 - INFO - 
+Step 3: Setting up web application
+2025-05-08 00:20:31,106 - INFO - Creating HTML templates for web display
+2025-05-08 00:20:31,106 - INFO - HTML templates created successfully
+2025-05-08 00:20:31,106 - INFO - Starting web server at http://localhost:5000
+2025-05-08 00:27:42,720 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 00:27:42,720 - INFO - =============================
+2025-05-08 00:27:42,720 - INFO - 
+Step 1: Web scraping
+2025-05-08 00:27:42,720 - INFO - Starting web scraping process
+2025-05-08 00:27:42,720 - INFO - Scraping from NewsDay
+2025-05-08 00:27:42,720 - INFO -   Scraping category: Business
+2025-05-08 00:27:42,720 - INFO -     Accessing URL: https://www.newsday.co.zw/category/6/business
+2025-05-08 00:27:44,199 - INFO -     Found 0 article links
+2025-05-08 00:27:44,199 - INFO -   Scraping category: Politics
+2025-05-08 00:27:44,199 - INFO -     Accessing URL: https://www.newsday.co.zw/category/5/politics
+2025-05-08 00:27:45,242 - INFO -     Found 0 article links
+2025-05-08 00:27:45,242 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:27:45,242 - INFO -     Accessing URL: https://www.newsday.co.zw/category/15/arts-culture
+2025-05-08 00:27:46,554 - INFO -     Found 0 article links
+2025-05-08 00:27:46,554 - INFO -   Scraping category: Sports
+2025-05-08 00:27:46,554 - INFO -     Accessing URL: https://www.newsday.co.zw/category/7/sport
+2025-05-08 00:27:48,089 - INFO -     Found 0 article links
+2025-05-08 00:27:48,089 - INFO - Scraping from The Herald
+2025-05-08 00:27:48,089 - INFO -   Scraping category: Business
+2025-05-08 00:27:48,090 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/business
+2025-05-08 00:27:48,268 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/business, status code: 403
+2025-05-08 00:27:48,268 - INFO -   Scraping category: Politics
+2025-05-08 00:27:48,268 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/politics
+2025-05-08 00:27:48,389 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/politics, status code: 403
+2025-05-08 00:27:48,389 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:27:48,389 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/entertainment
+2025-05-08 00:27:48,500 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/entertainment, status code: 403
+2025-05-08 00:27:48,500 - INFO -   Scraping category: Sports
+2025-05-08 00:27:48,500 - INFO -     Accessing URL: https://www.heraldonline.co.zw/category/sport
+2025-05-08 00:27:48,622 - WARNING -     Failed to access https://www.heraldonline.co.zw/category/sport, status code: 403
+2025-05-08 00:27:48,622 - INFO - Scraping from ZimEye
+2025-05-08 00:27:48,622 - INFO -   Scraping category: Business
+2025-05-08 00:27:48,622 - INFO -     Accessing URL: https://www.zimeye.net/category/business/
+2025-05-08 00:27:49,486 - INFO -     Found 0 article links
+2025-05-08 00:27:49,487 - INFO -   Scraping category: Politics
+2025-05-08 00:27:49,487 - INFO -     Accessing URL: https://www.zimeye.net/category/politics/
+2025-05-08 00:27:51,945 - WARNING -     Failed to access https://www.zimeye.net/category/politics/, status code: 404
+2025-05-08 00:27:51,945 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:27:51,945 - INFO -     Accessing URL: https://www.zimeye.net/category/entertainment/
+2025-05-08 00:27:52,560 - WARNING -     Failed to access https://www.zimeye.net/category/entertainment/, status code: 404
+2025-05-08 00:27:52,560 - INFO -   Scraping category: Sports
+2025-05-08 00:27:52,560 - INFO -     Accessing URL: https://www.zimeye.net/category/sports/
+2025-05-08 00:27:53,111 - WARNING -     Failed to access https://www.zimeye.net/category/sports/, status code: 404
+2025-05-08 00:27:53,112 - INFO - Scraping from The Standard
+2025-05-08 00:27:53,112 - INFO -   Scraping category: Business
+2025-05-08 00:27:53,112 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/18/business
+2025-05-08 00:27:53,644 - INFO -     Found 0 article links
+2025-05-08 00:27:53,644 - INFO -   Scraping category: Politics
+2025-05-08 00:27:53,644 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/12/local-news
+2025-05-08 00:27:54,221 - INFO -     Found 0 article links
+2025-05-08 00:27:54,221 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:27:54,221 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/25/standard-people
+2025-05-08 00:27:55,267 - INFO -     Found 0 article links
+2025-05-08 00:27:55,267 - INFO -   Scraping category: Sports
+2025-05-08 00:27:55,268 - INFO -     Accessing URL: https://www.thestandard.co.zw/category/19/sport
+2025-05-08 00:27:55,781 - INFO -     Found 0 article links
+2025-05-08 00:27:55,781 - INFO - Scraping from iHarare
+2025-05-08 00:27:55,781 - INFO -   Scraping category: Business
+2025-05-08 00:27:55,781 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 00:27:57,304 - INFO -     Found 0 article links
+2025-05-08 00:27:57,304 - INFO -   Scraping category: Politics
+2025-05-08 00:27:57,304 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 00:27:58,649 - INFO -     Found 0 article links
+2025-05-08 00:27:58,650 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 00:27:58,650 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 00:27:59,353 - INFO -     Found 0 article links
+2025-05-08 00:27:59,353 - INFO -   Scraping category: Sports
+2025-05-08 00:27:59,353 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 00:27:59,964 - WARNING -     Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 00:27:59,964 - WARNING - No articles were scraped successfully.
+2025-05-08 00:27:59,964 - INFO - Creating dummy data for testing
+2025-05-08 00:27:59,967 - INFO - 
+Step 2: Clustering articles
+2025-05-08 00:27:59,967 - INFO - Preprocessing article content for clustering
+2025-05-08 00:27:59,980 - INFO - Vectorized 100 articles with 67 features
+2025-05-08 00:27:59,980 - INFO - Clustering articles into 4 clusters
+2025-05-08 00:28:00,026 - INFO - Clustering completed
+2025-05-08 00:28:00,027 - INFO - Creating cluster visualizations
+2025-05-08 00:28:00,426 - INFO - Saved cluster visualization to static/clusters.png
+2025-05-08 00:28:00,426 - INFO - Saving cluster data for web display
+2025-05-08 00:28:00,431 - INFO - Saved cluster data to static/cluster_data.json
+2025-05-08 00:28:00,431 - INFO - 
+Cluster Statistics:
+2025-05-08 00:28:00,431 - INFO - Cluster 0: 25 articles
+2025-05-08 00:28:00,432 - INFO -   - Sports: 25 articles
+2025-05-08 00:28:00,432 - INFO - 
+2025-05-08 00:28:00,432 - INFO - Cluster 1: 25 articles
+2025-05-08 00:28:00,432 - INFO -   - Arts/Culture/Celebrities: 25 articles
+2025-05-08 00:28:00,432 - INFO - 
+2025-05-08 00:28:00,432 - INFO - Cluster 2: 25 articles
+2025-05-08 00:28:00,432 - INFO -   - Business: 25 articles
+2025-05-08 00:28:00,432 - INFO - 
+2025-05-08 00:28:00,432 - INFO - Cluster 3: 25 articles
+2025-05-08 00:28:00,432 - INFO -   - Politics: 25 articles
+2025-05-08 00:28:00,432 - INFO - 
+2025-05-08 00:28:00,432 - INFO - 
+Step 3: Setting up web application
+2025-05-08 00:28:00,435 - INFO - Creating HTML templates for web display
+2025-05-08 00:28:00,435 - INFO - HTML templates created successfully
+2025-05-08 00:28:00,435 - INFO - Starting web server at http://localhost:5007
+2025-05-08 00:28:00,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://10.29.68.123:5007
+2025-05-08 00:28:00,437 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 00:28:02,113 - INFO - 127.0.0.1 - - [08/May/2025 00:28:02] "GET / HTTP/1.1" 200 -
+2025-05-08 00:28:02,154 - INFO - 127.0.0.1 - - [08/May/2025 00:28:02] "GET /static/clusters.png HTTP/1.1" 200 -
+2025-05-08 00:28:02,494 - INFO - 127.0.0.1 - - [08/May/2025 00:28:02] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-08 00:28:02,530 - INFO - 127.0.0.1 - - [08/May/2025 00:28:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 00:28:18,359 - INFO - 127.0.0.1 - - [08/May/2025 00:28:18] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-08 00:28:32,976 - INFO - 127.0.0.1 - - [08/May/2025 00:28:32] "GET / HTTP/1.1" 200 -
+2025-05-08 00:28:33,180 - INFO - 127.0.0.1 - - [08/May/2025 00:28:33] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-08 00:28:33,202 - INFO - 127.0.0.1 - - [08/May/2025 00:28:33] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-08 12:58:20,924 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 12:58:20,925 - INFO - =============================
+2025-05-08 12:58:20,925 - INFO - 
+Step 1: Web scraping
+2025-05-08 12:58:20,925 - INFO - Starting web scraping process
+2025-05-08 12:58:20,925 - INFO - Scraping from Independent
+2025-05-08 12:58:20,925 - INFO -   Scraping category: Business
+2025-05-08 12:58:20,925 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-08 12:58:22,952 - INFO -     Found 0 article links
+2025-05-08 12:58:22,952 - INFO -   Scraping category: Politics
+2025-05-08 12:58:22,952 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-08 12:58:24,158 - INFO -     Found 0 article links
+2025-05-08 12:58:24,159 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 12:58:24,159 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-08 12:58:24,649 - INFO -     Found 0 article links
+2025-05-08 12:58:24,649 - INFO -   Scraping category: Sports
+2025-05-08 12:58:24,649 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-08 12:58:25,179 - INFO -     Found 0 article links
+2025-05-08 12:58:25,180 - INFO - Scraping from CNN
+2025-05-08 12:58:25,180 - INFO -   Scraping category: Business
+2025-05-08 12:58:25,180 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-08 12:58:27,428 - INFO -     Found 0 article links
+2025-05-08 12:58:27,428 - INFO -   Scraping category: Politics
+2025-05-08 12:58:27,429 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-08 12:58:28,877 - INFO -     Found 0 article links
+2025-05-08 12:58:28,878 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 12:58:28,878 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-08 12:58:30,099 - INFO -     Found 0 article links
+2025-05-08 12:58:30,099 - INFO -   Scraping category: Sports
+2025-05-08 12:58:30,099 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-08 12:58:34,112 - INFO -     Found 0 article links
+2025-05-08 12:58:34,112 - INFO - Scraping from BBC
+2025-05-08 12:58:34,112 - INFO -   Scraping category: Business
+2025-05-08 12:58:34,112 - INFO -     Accessing URL: https://www.bbc.com/business
+2025-05-08 12:58:36,955 - INFO -     Found 0 article links
+2025-05-08 12:58:36,955 - INFO -   Scraping category: Politics
+2025-05-08 12:58:36,955 - INFO -     Accessing URL: https://www.bbc.com/news
+2025-05-08 12:58:38,396 - INFO -     Found 0 article links
+2025-05-08 12:58:38,396 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 12:58:38,396 - INFO -     Accessing URL: https://www.bbc.com/culture
+2025-05-08 12:58:39,326 - INFO -     Found 0 article links
+2025-05-08 12:58:39,326 - INFO -   Scraping category: Sports
+2025-05-08 12:58:39,327 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-08 12:58:39,943 - INFO -     Found 0 article links
+2025-05-08 12:58:39,944 - INFO - Scraping from CBS
+2025-05-08 12:58:39,944 - INFO -   Scraping category: Business
+2025-05-08 12:58:39,944 - INFO -     Accessing URL: https://www.cbsnews.com/moneywatch/
+2025-05-08 12:58:47,234 - INFO -     Found 0 article links
+2025-05-08 12:58:47,235 - INFO -   Scraping category: Politics
+2025-05-08 12:58:47,235 - INFO -     Accessing URL: https://www.cbsnews.com/politics/
+2025-05-08 12:58:48,693 - INFO -     Found 0 article links
+2025-05-08 12:58:48,693 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 12:58:48,693 - INFO -     Accessing URL: https://www.cbsnews.com/entertainment/
+2025-05-08 12:58:50,185 - INFO -     Found 0 article links
+2025-05-08 12:58:50,185 - INFO -   Scraping category: Sports
+2025-05-08 12:58:50,186 - INFO -     Accessing URL: https://www.cbssports.com/
+2025-05-08 12:58:51,263 - INFO -     Found 0 article links
+2025-05-08 12:58:51,263 - INFO - Scraping from iHarare
+2025-05-08 12:58:51,264 - INFO -   Scraping category: Business
+2025-05-08 12:58:51,264 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 12:58:52,502 - INFO -     Found 0 article links
+2025-05-08 12:58:52,502 - INFO -   Scraping category: Politics
+2025-05-08 12:58:52,502 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 12:58:53,526 - INFO -     Found 0 article links
+2025-05-08 12:58:53,526 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 12:58:53,526 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 12:58:54,350 - INFO -     Found 0 article links
+2025-05-08 12:58:54,350 - INFO -   Scraping category: Sports
+2025-05-08 12:58:54,350 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 12:58:55,223 - WARNING -     Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 12:58:55,224 - WARNING - No articles were scraped successfully.
+2025-05-08 12:58:55,224 - INFO - Creating dummy data for testing
+2025-05-08 12:58:55,233 - INFO - 
+Step 2: Clustering articles
+2025-05-08 12:58:55,233 - INFO - Preprocessing article content for clustering
+2025-05-08 12:58:55,253 - INFO - Vectorized 100 articles with 67 features
+2025-05-08 12:58:55,253 - INFO - Clustering articles into 4 clusters
+2025-05-08 12:58:55,310 - INFO - Clustering completed
+2025-05-08 12:58:55,310 - INFO - Creating cluster visualizations
+2025-05-08 12:58:55,780 - INFO - Saved cluster visualization to static/clusters.png
+2025-05-08 12:58:55,780 - INFO - Saving cluster data for web display
+2025-05-08 12:58:55,787 - INFO - Saved cluster data to static/cluster_data.json
+2025-05-08 12:58:55,787 - INFO - 
+Cluster Statistics:
+2025-05-08 12:58:55,787 - INFO - Cluster 0: 25 articles
+2025-05-08 12:58:55,787 - INFO -   - Sports: 25 articles
+2025-05-08 12:58:55,787 - INFO - 
+2025-05-08 12:58:55,787 - INFO - Cluster 1: 25 articles
+2025-05-08 12:58:55,788 - INFO -   - Arts/Culture/Celebrities: 25 articles
+2025-05-08 12:58:55,788 - INFO - 
+2025-05-08 12:58:55,788 - INFO - Cluster 2: 25 articles
+2025-05-08 12:58:55,788 - INFO -   - Business: 25 articles
+2025-05-08 12:58:55,788 - INFO - 
+2025-05-08 12:58:55,788 - INFO - Cluster 3: 25 articles
+2025-05-08 12:58:55,788 - INFO -   - Politics: 25 articles
+2025-05-08 12:58:55,788 - INFO - 
+2025-05-08 12:58:55,788 - INFO - 
+Step 3: Setting up web application
+2025-05-08 12:58:55,792 - INFO - Creating HTML templates for web display
+2025-05-08 12:58:55,793 - INFO - HTML templates created successfully
+2025-05-08 12:58:55,793 - INFO - Starting web server at http://localhost:5007
+2025-05-08 12:58:55,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://192.168.33.123:5007
+2025-05-08 12:58:55,795 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 12:58:57,650 - INFO - 127.0.0.1 - - [08/May/2025 12:58:57] "GET / HTTP/1.1" 200 -
+2025-05-08 12:58:57,688 - INFO - 127.0.0.1 - - [08/May/2025 12:58:57] "GET /static/clusters.png HTTP/1.1" 200 -
+2025-05-08 12:58:57,732 - INFO - 127.0.0.1 - - [08/May/2025 12:58:57] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-08 12:59:03,781 - INFO - 127.0.0.1 - - [08/May/2025 12:59:03] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-08 12:59:09,989 - INFO - 127.0.0.1 - - [08/May/2025 12:59:09] "GET / HTTP/1.1" 200 -
+2025-05-08 12:59:10,025 - INFO - 127.0.0.1 - - [08/May/2025 12:59:10] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-08 12:59:10,030 - INFO - 127.0.0.1 - - [08/May/2025 12:59:10] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-08 13:12:32,379 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 13:12:32,379 - INFO - =============================
+2025-05-08 13:12:32,380 - INFO - 
+Step 1: Web scraping
+2025-05-08 13:12:32,380 - INFO - Starting web scraping process
+2025-05-08 13:12:32,380 - INFO - Scraping from Independent
+2025-05-08 13:12:32,380 - INFO -   Scraping category: Business
+2025-05-08 13:12:32,380 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-08 13:12:37,071 - INFO -     Found 0 article links
+2025-05-08 13:12:37,071 - INFO -   Scraping category: Politics
+2025-05-08 13:12:37,071 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-08 13:12:40,662 - INFO -     Found 0 article links
+2025-05-08 13:12:40,662 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:12:40,662 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-08 13:12:44,548 - INFO -     Found 0 article links
+2025-05-08 13:12:44,548 - INFO -   Scraping category: Sports
+2025-05-08 13:12:44,548 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-08 13:12:51,511 - INFO -     Found 0 article links
+2025-05-08 13:12:51,512 - INFO - Scraping from CNN
+2025-05-08 13:12:51,512 - INFO -   Scraping category: Business
+2025-05-08 13:12:51,512 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-08 13:12:59,783 - INFO -     Found 0 article links
+2025-05-08 13:12:59,783 - INFO -   Scraping category: Politics
+2025-05-08 13:12:59,783 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-08 13:13:07,273 - INFO -     Found 0 article links
+2025-05-08 13:13:07,273 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:13:07,273 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-08 13:13:11,617 - INFO -     Found 0 article links
+2025-05-08 13:13:11,617 - INFO -   Scraping category: Sports
+2025-05-08 13:13:11,617 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-08 13:13:31,988 - INFO -     Found 0 article links
+2025-05-08 13:13:31,988 - INFO - Scraping from BBC
+2025-05-08 13:13:31,988 - INFO -   Scraping category: Business
+2025-05-08 13:13:31,988 - INFO -     Accessing URL: https://www.bbc.com/business
+2025-05-08 13:13:42,175 - INFO -     Found 0 article links
+2025-05-08 13:13:42,175 - INFO -   Scraping category: Politics
+2025-05-08 13:13:42,175 - INFO -     Accessing URL: https://www.bbc.com/news
+2025-05-08 13:14:07,195 - ERROR -     Error scraping URL https://www.bbc.com/news: HTTPSConnectionPool(host='www.bbc.com', port=443): Max retries exceeded with url: /news (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x75d68caab500>: Failed to resolve 'www.bbc.com' ([Errno -3] Temporary failure in name resolution)"))
+2025-05-08 13:14:07,195 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:14:07,195 - INFO -     Accessing URL: https://www.bbc.com/culture
+2025-05-08 13:14:21,271 - INFO -     Found 0 article links
+2025-05-08 13:14:21,272 - INFO -   Scraping category: Sports
+2025-05-08 13:14:21,272 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-08 13:14:32,086 - INFO -     Found 0 article links
+2025-05-08 13:14:32,086 - INFO - Scraping from CBS
+2025-05-08 13:14:32,086 - INFO -   Scraping category: Business
+2025-05-08 13:14:32,086 - INFO -     Accessing URL: https://www.cbsnews.com/moneywatch/
+2025-05-08 13:14:39,546 - INFO -     Found 0 article links
+2025-05-08 13:14:39,546 - INFO -   Scraping category: Politics
+2025-05-08 13:14:39,546 - INFO -     Accessing URL: https://www.cbsnews.com/politics/
+2025-05-08 13:14:51,519 - INFO -     Found 0 article links
+2025-05-08 13:14:51,520 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:14:51,520 - INFO -     Accessing URL: https://www.cbsnews.com/entertainment/
+2025-05-08 13:15:02,127 - INFO -     Found 0 article links
+2025-05-08 13:15:02,127 - INFO -   Scraping category: Sports
+2025-05-08 13:15:02,127 - INFO -     Accessing URL: https://www.cbssports.com/
+2025-05-08 13:15:20,799 - INFO -     Found 0 article links
+2025-05-08 13:15:20,799 - INFO - Scraping from iHarare
+2025-05-08 13:15:20,799 - INFO -   Scraping category: Business
+2025-05-08 13:15:20,799 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 13:15:39,595 - INFO -     Found 0 article links
+2025-05-08 13:15:39,595 - INFO -   Scraping category: Politics
+2025-05-08 13:15:39,595 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 13:15:46,773 - INFO -     Found 0 article links
+2025-05-08 13:15:46,773 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:15:46,773 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 13:15:50,635 - INFO -     Found 0 article links
+2025-05-08 13:15:50,635 - INFO -   Scraping category: Sports
+2025-05-08 13:15:50,635 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 13:15:53,976 - WARNING -     Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 13:15:53,976 - WARNING - No articles were scraped successfully.
+2025-05-08 13:15:53,977 - INFO - 
+Step 2: Clustering articles
+2025-05-08 13:15:53,977 - INFO - Preprocessing article content for clustering
+2025-05-08 13:19:47,187 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 13:19:47,187 - INFO - =============================
+2025-05-08 13:19:47,187 - INFO - Starting web scraping process
+2025-05-08 13:19:47,188 - INFO - Scraping from Independent
+2025-05-08 13:19:47,188 - INFO -   Scraping category: Business
+2025-05-08 13:19:47,188 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-08 13:19:59,095 - INFO - Selector 'div.article' matched 94 elements
+2025-05-08 13:19:59,163 - INFO - Selector 'div.content' matched 109 elements
+2025-05-08 13:19:59,216 - INFO - Found 101 unique article links
+2025-05-08 13:19:59,217 - INFO -       Scraping article: BlackRock’s billions show it’s not all gloom for UK business
+2025-05-08 13:20:07,000 - INFO -       Successfully scraped article
+2025-05-08 13:20:07,000 - INFO -       Scraping article: Why Tesla’s fall forced Musk to step back from DOGE
+2025-05-08 13:20:13,522 - INFO -       Successfully scraped article
+2025-05-08 13:20:13,522 - INFO -       Scraping article: Business
+2025-05-08 13:20:30,874 - ERROR - Error scraping article content https://www.independent.co.uk/news/business: HTTPSConnectionPool(host='www.independent.co.uk', port=443): Read timed out. (read timeout=15)
+2025-05-08 13:20:30,874 - WARNING -       Article content too short, skipping
+2025-05-08 13:20:30,874 - INFO -       Scraping article: British Steel begins recruitment drive for first time since Government rescue
+2025-05-08 13:20:39,347 - INFO -       Successfully scraped article
+2025-05-08 13:20:39,347 - INFO -       Scraping article: FTSE 100 ends record run of gains as UK and US rates decisions loom
+2025-05-08 13:20:45,009 - INFO -       Successfully scraped article
+2025-05-08 13:20:45,009 - INFO -   Scraping category: Politics
+2025-05-08 13:20:45,009 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-08 13:20:58,864 - INFO - Selector 'div.article' matched 106 elements
+2025-05-08 13:20:58,935 - INFO - Selector 'div.content' matched 120 elements
+2025-05-08 13:20:58,991 - INFO - Found 104 unique article links
+2025-05-08 13:20:58,992 - INFO -       Scraping article: Donald Trump expected to announce ‘major trade deal’ with UK
+2025-05-08 13:21:13,767 - INFO -       Successfully scraped article
+2025-05-08 13:21:13,767 - INFO -       Scraping article: UK Politics
+2025-05-08 13:21:16,421 - INFO -       Successfully scraped article
+2025-05-08 13:21:16,421 - INFO -       Scraping article: Digitising NHS and adult social care ‘will cost £21bn over the next five years’
+2025-05-08 13:21:19,698 - INFO -       Successfully scraped article
+2025-05-08 13:21:19,698 - INFO -       Scraping article: Keir Starmer breaks silence on US-UK trade deal with Trump
+2025-05-08 13:21:26,620 - INFO -       Successfully scraped article
+2025-05-08 13:21:26,620 - INFO -       Scraping article: What could a UK-US trade deal include and how could it effect tariffs?
+2025-05-08 13:21:32,804 - INFO -       Successfully scraped article
+2025-05-08 13:21:32,804 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:21:32,804 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-08 13:21:36,605 - INFO - Selector 'div.article' matched 86 elements
+2025-05-08 13:21:36,661 - INFO - Selector 'div.content' matched 96 elements
+2025-05-08 13:21:36,702 - INFO - Found 81 unique article links
+2025-05-08 13:21:36,703 - INFO -       Scraping article: Emma Jane Unsworth: ‘Women are told to feel ashamed of our fantasies’
+2025-05-08 13:21:41,369 - INFO -       Successfully scraped article
+2025-05-08 13:21:41,369 - INFO -       Scraping article: Amid volatile headlines, Blake Lively’s future in movies is unclear
+2025-05-08 13:21:53,280 - INFO -       Successfully scraped article
+2025-05-08 13:21:53,280 - INFO -       Scraping article: Tim Crouch’s experimental play An Oak Tree is pure magic
+2025-05-08 13:21:56,769 - INFO -       Successfully scraped article
+2025-05-08 13:21:56,769 - INFO -       Scraping article: Bella Ramsey’s ‘miscasting’ has made The Last of Us more fascinating
+2025-05-08 13:22:02,544 - INFO -       Successfully scraped article
+2025-05-08 13:22:02,545 - INFO -       Scraping article: This was Pink Floyd at their experimental zenith
+2025-05-08 13:22:05,842 - INFO -       Successfully scraped article
+2025-05-08 13:22:05,843 - INFO -   Scraping category: Sports
+2025-05-08 13:22:05,843 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-08 13:22:10,033 - INFO - Selector 'div.article' matched 85 elements
+2025-05-08 13:22:10,089 - INFO - Selector 'div.content' matched 111 elements
+2025-05-08 13:22:10,140 - INFO - Found 107 unique article links
+2025-05-08 13:22:10,141 - INFO -       Scraping article: Doohan’s Alpine axe a ticking time bomb and reveals F1’s cold truth
+2025-05-08 13:22:20,335 - INFO -       Successfully scraped article
+2025-05-08 13:22:20,335 - INFO -       Scraping article: Champion Pogacar’s absence leaves Giro d’Italia field wide open
+2025-05-08 13:22:27,193 - INFO -       Successfully scraped article
+2025-05-08 13:22:27,193 - INFO -       Scraping article: Fitzpatrick details key change to spark hope for PGA Championship
+2025-05-08 13:22:32,064 - INFO -       Successfully scraped article
+2025-05-08 13:22:32,064 - INFO -       Scraping article: Sinner returns to tennis tour in flux as rivals fail to close gap
+2025-05-08 13:22:37,127 - INFO -       Successfully scraped article
+2025-05-08 13:22:37,127 - INFO -       Scraping article: Tennis
+2025-05-08 13:22:42,787 - INFO -       Successfully scraped article
+2025-05-08 13:22:42,793 - INFO - Scraping from CNN
+2025-05-08 13:22:42,793 - INFO -   Scraping category: Business
+2025-05-08 13:22:42,793 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-08 13:22:59,304 - INFO - Selector 'div.card' matched 66 elements
+2025-05-08 13:22:59,368 - INFO - Selector 'div.container__item' matched 66 elements
+2025-05-08 13:22:59,427 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 38 elements
+2025-05-08 13:22:59,454 - INFO - Found 60 unique article links
+2025-05-08 13:22:59,455 - INFO -       Scraping article: Trump will announce a ‘major trade deal’ with the UK Thursday
+2025-05-08 13:23:15,329 - INFO -       Successfully scraped article
+2025-05-08 13:23:15,329 - INFO -       Scraping article: Will the Fed step in if America’s labor market cracks from Trump’s tariffs?
+2025-05-08 13:23:26,721 - INFO -       Successfully scraped article
+2025-05-08 13:23:26,721 - INFO -       Scraping article: Joe Raedle/Getty Images
+2025-05-08 13:23:37,620 - INFO -       Successfully scraped article
+2025-05-08 13:23:37,620 - INFO -       Scraping article: Craig Hudson/The Washington Post/Getty Images
+2025-05-08 13:23:43,707 - INFO -       Successfully scraped article
+2025-05-08 13:23:43,707 - INFO -       Scraping article: Fly View Productions/E+/Getty Images/File
+2025-05-08 13:23:49,311 - INFO -       Successfully scraped article
+2025-05-08 13:23:49,311 - INFO -   Scraping category: Politics
+2025-05-08 13:23:49,311 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-08 13:23:53,038 - INFO - Selector 'div.card' matched 54 elements
+2025-05-08 13:23:53,089 - INFO - Selector 'div.container__item' matched 54 elements
+2025-05-08 13:23:53,135 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 19 elements
+2025-05-08 13:23:53,149 - INFO - Found 54 unique article links
+2025-05-08 13:23:53,149 - INFO -       Scraping article: Al Drago/Bloomberg/Getty Images
+2025-05-08 13:23:55,208 - INFO -       Successfully scraped article
+2025-05-08 13:23:55,208 - INFO -       Scraping article: Upcoming changes at CIA shine a spotlight on the spy agency’s director John Ratcliffe
+2025-05-08 13:24:02,315 - INFO -       Successfully scraped article
+2025-05-08 13:24:02,315 - INFO -       Scraping article: Chief Justice John Roberts stresses judicial independence amid tensions with Trump
+2025-05-08 13:24:06,662 - INFO -       Successfully scraped article
+2025-05-08 13:24:06,662 - INFO -       Scraping article: Federal judge probing whether Trump has the power to bring back migrants deported to El Salvador
+2025-05-08 13:24:10,445 - INFO -       Successfully scraped article
+2025-05-08 13:24:10,445 - INFO -       Scraping article: Exclusive: Some ‘Les Mis’ cast members plan to boycott Trump’s attendance at Kennedy Center performance next month
+2025-05-08 13:24:17,884 - INFO -       Successfully scraped article
+2025-05-08 13:24:17,884 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:24:17,884 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-08 13:24:28,900 - INFO - Selector 'div.card' matched 34 elements
+2025-05-08 13:24:28,929 - INFO - Selector 'div.container__item' matched 34 elements
+2025-05-08 13:24:28,957 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 24 elements
+2025-05-08 13:24:28,970 - INFO - Found 34 unique article links
+2025-05-08 13:24:28,970 - INFO -       Scraping article: Jamie McCarthy/Getty Images
+2025-05-08 13:24:32,651 - INFO -       Successfully scraped article
+2025-05-08 13:24:32,651 - INFO -       Scraping article: Hulton Archive/Getty Images
+2025-05-08 13:24:36,202 - INFO -       Successfully scraped article
+2025-05-08 13:24:36,203 - INFO -       Scraping article: Yuki Iwamura/Bloomberg/Getty Images
+2025-05-08 13:24:39,936 - INFO -       Successfully scraped article
+2025-05-08 13:24:39,936 - INFO -       Scraping article: Jane Rosenberg/Reuters
+2025-05-08 13:24:45,095 - INFO -       Successfully scraped article
+2025-05-08 13:24:45,095 - INFO -       Scraping article: (JC Olivera/WireImage/Getty Images)
+2025-05-08 13:24:48,019 - INFO -       Successfully scraped article
+2025-05-08 13:24:48,019 - INFO -   Scraping category: Sports
+2025-05-08 13:24:48,019 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-08 13:24:50,715 - INFO - Selector 'div.card' matched 65 elements
+2025-05-08 13:24:50,795 - INFO - Selector 'div.container__item' matched 65 elements
+2025-05-08 13:24:50,868 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 16 elements
+2025-05-08 13:24:50,883 - INFO - Found 65 unique article links
+2025-05-08 13:24:50,884 - INFO -       Scraping article: Franck Fife/AFP/Getty Images
+2025-05-08 13:25:02,054 - INFO -       Successfully scraped article
+2025-05-08 13:25:02,054 - INFO -       Scraping article: Maddie Meyer/Getty Images
+2025-05-08 13:25:05,616 - INFO -       Successfully scraped article
+2025-05-08 13:25:05,617 - INFO -       Scraping article: Emilee Chinn/Getty Images
+2025-05-08 13:25:09,446 - INFO -       Successfully scraped article
+2025-05-08 13:25:09,446 - INFO -       Scraping article: David Dow/NBAE/Getty Images
+2025-05-08 13:25:12,964 - INFO -       Successfully scraped article
+2025-05-08 13:25:12,964 - INFO -       Scraping article: Yasser Bakhsh/Getty Images/File
+2025-05-08 13:25:16,499 - INFO -       Successfully scraped article
+2025-05-08 13:25:16,499 - INFO - Scraping from BBC
+2025-05-08 13:25:16,499 - INFO -   Scraping category: Business
+2025-05-08 13:25:16,499 - INFO -     Accessing URL: https://www.bbc.com/news/business
+2025-05-08 13:25:23,144 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:25:23,174 - INFO - Found 28 unique article links
+2025-05-08 13:25:23,175 - INFO -       Scraping article: LIVETrump says US-UK trade deal being announced today is 'full and comprehensive'The deal will be unveiled at 10:00 ET / 15:00 BST, and is expected to reduce tariffs on certain US and UK goods.
+2025-05-08 13:25:25,519 - INFO -       Successfully scraped article
+2025-05-08 13:25:25,519 - INFO -       Scraping article: What could be in the UK-US tariff deal?The two nations will announce a deal to reduce tariffs today - here's what could be in it.31 mins agoBusiness
+2025-05-08 13:25:28,614 - INFO -       Successfully scraped article
+2025-05-08 13:25:28,614 - INFO -       Scraping article: iPhone maker announces plan to build Mitsubishi EVsThe Taiwan-made electric vehicle is expected to go on sale in Australia and New Zealand next year.9 hrs ago
+2025-05-08 13:25:32,182 - INFO -       Successfully scraped article
+2025-05-08 13:25:32,182 - INFO -       Scraping article: Fed holds rates because of tariff 'uncertainty'The Federal Reserve said Trump's barrage of tariffs were generating too much uncertainty to predict its next moves.14 hrs agoBusiness
+2025-05-08 13:25:34,668 - INFO -       Successfully scraped article
+2025-05-08 13:25:34,668 - INFO -       Scraping article: Apple hits back at US judge's 'extraordinary' contempt orderThe legal battle - started by Epic Games - could determine the future of the highly lucrative App Store.3 hrs agoTechnology
+2025-05-08 13:25:36,893 - INFO -       Successfully scraped article
+2025-05-08 13:25:36,893 - INFO -   Scraping category: Politics
+2025-05-08 13:25:36,893 - INFO -     Accessing URL: https://www.bbc.com/news/politics
+2025-05-08 13:25:37,519 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:25:37,536 - INFO - Found 22 unique article links
+2025-05-08 13:25:37,536 - INFO -       Scraping article: UK Politics
+2025-05-08 13:25:40,544 - INFO -       Successfully scraped article
+2025-05-08 13:25:40,544 - INFO -       Scraping article: England
+2025-05-08 13:25:43,362 - INFO -       Successfully scraped article
+2025-05-08 13:25:43,362 - INFO -       Scraping article: N. Ireland
+2025-05-08 13:25:46,910 - INFO -       Successfully scraped article
+2025-05-08 13:25:46,910 - INFO -       Scraping article: Scotland
+2025-05-08 13:25:51,370 - INFO -       Successfully scraped article
+2025-05-08 13:25:51,370 - INFO -       Scraping article: Wales
+2025-05-08 13:25:54,627 - INFO -       Successfully scraped article
+2025-05-08 13:25:54,627 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:25:54,627 - INFO -     Accessing URL: https://www.bbc.com/news/entertainment_and_arts
+2025-05-08 13:25:55,248 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:25:55,270 - INFO - Found 24 unique article links
+2025-05-08 13:25:55,270 - INFO -       Scraping article: Bargain Hunt expert charged with terror offencesOghenochuko Ojiri is due to appear at Westminster Magistrates' Court on Friday, the Met Police says.32 mins agoLondon
+2025-05-08 13:25:57,303 - INFO -       Successfully scraped article
+2025-05-08 13:25:57,303 - INFO -       Scraping article: Rooney speaks of relief at end of Wagatha legal sagaColeen Rooney says the latest ruling "brings closure" after her legal battle with Rebekah Vardy.26 mins agoCulture
+2025-05-08 13:26:01,791 - INFO -       Successfully scraped article
+2025-05-08 13:26:01,791 - INFO -       Scraping article: The make-up artist using colours she can't seeWhile she cannot see every colour, this 20-year-old from Belfast is determined to create bold looks. 2 hrs agoNorthern Ireland
+2025-05-08 13:26:05,379 - INFO -       Successfully scraped article
+2025-05-08 13:26:05,379 - INFO -       Scraping article: Liam Payne left £24m fortuneThe late One Direction star's former partner Cheryl is named one of the administrators of his estate.19 hrs agoCulture
+2025-05-08 13:26:10,801 - INFO -       Successfully scraped article
+2025-05-08 13:26:10,802 - INFO -       Scraping article: Bella Ramsey backs keeping best actress awardsThe star, who is non-binary, says it's important that "recognition for women in the industry is preserved".1 day agoCulture
+2025-05-08 13:26:13,978 - INFO -       Successfully scraped article
+2025-05-08 13:26:13,979 - INFO -   Scraping category: Sports
+2025-05-08 13:26:13,979 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-08 13:26:15,441 - INFO - Found 0 unique article links
+2025-05-08 13:26:15,442 - INFO - Scraping from iHarare
+2025-05-08 13:26:15,442 - INFO -   Scraping category: Business
+2025-05-08 13:26:15,442 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 13:26:16,457 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:26:16,474 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:26:16,487 - INFO - Found 23 unique article links
+2025-05-08 13:26:16,487 - INFO -       Scraping article: Business
+2025-05-08 13:26:19,422 - INFO -       Successfully scraped article
+2025-05-08 13:26:19,422 - INFO -       Scraping article: Ministry Of Transport Apologises For False Claims On Victoria Falls Road after Being Accused Of Corruption
+2025-05-08 13:26:22,757 - INFO -       Successfully scraped article
+2025-05-08 13:26:22,757 - INFO -       Scraping article: RBZ Hands Out US$10 Million to 135 Companies Through Targeted Finance Facility
+2025-05-08 13:26:25,554 - INFO -       Successfully scraped article
+2025-05-08 13:26:25,554 - INFO -       Scraping article: Why Zimbabwe Seized Land From Black Farmers During Land Reform Program Under Mugabe: Presidential Spokesperson Explains
+2025-05-08 13:26:28,435 - INFO -       Successfully scraped article
+2025-05-08 13:26:28,435 - INFO -       Scraping article: Zimbabwe Returns Seized Farms To Black Farmers Who Lost Land Under Mugabe
+2025-05-08 13:26:31,207 - INFO -       Successfully scraped article
+2025-05-08 13:26:31,207 - INFO -   Scraping category: Politics
+2025-05-08 13:26:31,207 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 13:26:32,411 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:26:32,426 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:26:32,438 - INFO - Found 22 unique article links
+2025-05-08 13:26:32,439 - INFO -       Scraping article: Pics: Zim Deputy Minister Sheillah Chikomo Gets Engaged in Style – Helicopters, Yachts and Dubai Dreams
+2025-05-08 13:26:34,485 - INFO -       Successfully scraped article
+2025-05-08 13:26:34,485 - INFO -       Scraping article: ICT Minister Tatenda Mavetera Responds to Viral Bum-Shaking Dance Video
+2025-05-08 13:26:38,068 - INFO -       Successfully scraped article
+2025-05-08 13:26:38,068 - INFO -       Scraping article: Ziyambi Ziyambi Speaks On Leaked Term Extension Memo, Hints Real Amendments Are Coming
+2025-05-08 13:26:40,249 - INFO -       Successfully scraped article
+2025-05-08 13:26:40,250 - INFO -       Scraping article: Paul Mashatile Explains Delay in Beefing Up Security After Assassination Attempt
+2025-05-08 13:26:43,083 - INFO -       Successfully scraped article
+2025-05-08 13:26:43,083 - INFO -       Scraping article: Geza Drops Bombshell: Says Zimbabweans Must Stay Away INDEFINITELY Until Government Changes
+2025-05-08 13:26:46,193 - INFO -       Successfully scraped article
+2025-05-08 13:26:46,193 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:26:46,193 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 13:26:46,971 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:26:46,987 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:26:47,000 - INFO - Found 22 unique article links
+2025-05-08 13:26:47,000 - INFO -       Scraping article: Soweto derby heat: Springboks captain Siya Kolisi clashes with teammates (video)
+2025-05-08 13:26:50,304 - INFO -       Successfully scraped article
+2025-05-08 13:26:50,305 - INFO -       Scraping article: “Impolo Yodwa”: Siya Kolisi’s Heartwarming Videos Playing and Bonding with His Kids and Siblings Melt Hearts (Watch)
+2025-05-08 13:26:52,260 - INFO -       Successfully scraped article
+2025-05-08 13:26:52,260 - INFO -       Scraping article: From rugby to superdad: All Blacks star Ardie Savea’s daddy side melts hearts
+2025-05-08 13:26:56,289 - INFO -       Successfully scraped article
+2025-05-08 13:26:56,289 - INFO -       Scraping article: WATCH: Wicknell Chivayo Secretly Jams to Winky D – After Publicly Bashing Him?
+2025-05-08 13:26:59,407 - INFO -       Successfully scraped article
+2025-05-08 13:26:59,407 - INFO -       Scraping article: ‘She wants to be in my space’: Siya Kolisi’s sister laughs at Rachel
+2025-05-08 13:27:01,820 - INFO -       Successfully scraped article
+2025-05-08 13:27:01,820 - INFO -   Scraping category: Sports
+2025-05-08 13:27:01,820 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 13:27:02,542 - WARNING - Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 13:27:02,542 - INFO - Scraping from The Herald
+2025-05-08 13:27:02,543 - INFO -   Scraping category: Business
+2025-05-08 13:27:02,543 - INFO -     Accessing URL: https://www.herald.co.zw/category/business/
+2025-05-08 13:27:08,251 - WARNING - Failed to access https://www.herald.co.zw/category/business/, status code: 403
+2025-05-08 13:27:08,252 - INFO -   Scraping category: Politics
+2025-05-08 13:27:08,252 - INFO -     Accessing URL: https://www.herald.co.zw/category/politics/
+2025-05-08 13:27:08,938 - WARNING - Failed to access https://www.herald.co.zw/category/politics/, status code: 403
+2025-05-08 13:27:08,939 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:27:08,939 - INFO -     Accessing URL: https://www.herald.co.zw/category/entertainment/
+2025-05-08 13:27:09,588 - WARNING - Failed to access https://www.herald.co.zw/category/entertainment/, status code: 403
+2025-05-08 13:27:09,589 - INFO -   Scraping category: Sports
+2025-05-08 13:27:09,589 - INFO -     Accessing URL: https://www.herald.co.zw/category/sports/
+2025-05-08 13:27:10,575 - WARNING - Failed to access https://www.herald.co.zw/category/sports/, status code: 403
+2025-05-08 13:27:10,589 - INFO - Saved 69 articles to news_data/all_articles.csv
+2025-05-08 13:27:10,589 - INFO - Scraping completed
+2025-05-08 13:54:59,714 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-08 13:54:59,716 - INFO - =============================
+2025-05-08 13:54:59,717 - INFO - Starting web scraping process
+2025-05-08 13:54:59,717 - INFO - Scraping from Independent
+2025-05-08 13:54:59,717 - INFO -   Scraping category: Business
+2025-05-08 13:54:59,717 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-08 13:55:01,413 - INFO - Selector 'div.article' matched 94 elements
+2025-05-08 13:55:01,481 - INFO - Selector 'div.content' matched 109 elements
+2025-05-08 13:55:01,533 - INFO - Found 101 unique article links
+2025-05-08 13:55:01,534 - INFO -       Scraping article: BlackRock’s billions show it’s not all gloom for UK business
+2025-05-08 13:55:06,253 - INFO -       Successfully scraped article
+2025-05-08 13:55:06,253 - INFO -       Scraping article: Why Tesla’s fall forced Musk to step back from DOGE
+2025-05-08 13:55:08,050 - INFO -       Successfully scraped article
+2025-05-08 13:55:08,050 - INFO -       Scraping article: Business
+2025-05-08 13:55:10,920 - INFO -       Successfully scraped article
+2025-05-08 13:55:10,920 - INFO -       Scraping article: Bank cuts interest rates to 4.25% as tariff tensions dampen growth
+2025-05-08 13:55:20,917 - INFO -       Successfully scraped article
+2025-05-08 13:55:20,917 - INFO -       Scraping article: Bank of England cuts interest rates for second time this year
+2025-05-08 13:55:26,068 - INFO -       Successfully scraped article
+2025-05-08 13:55:26,069 - INFO -   Scraping category: Politics
+2025-05-08 13:55:26,069 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-08 13:55:29,103 - INFO - Selector 'div.article' matched 106 elements
+2025-05-08 13:55:29,175 - INFO - Selector 'div.content' matched 120 elements
+2025-05-08 13:55:29,232 - INFO - Found 104 unique article links
+2025-05-08 13:55:29,233 - INFO -       Scraping article: Donald Trump expected to announce ‘major trade deal’ with UK
+2025-05-08 13:55:32,000 - INFO -       Successfully scraped article
+2025-05-08 13:55:32,000 - INFO -       Scraping article: UK Politics
+2025-05-08 13:55:37,253 - INFO -       Successfully scraped article
+2025-05-08 13:55:37,253 - INFO -       Scraping article: Digitising NHS and adult social care ‘will cost £21bn over the next five years’
+2025-05-08 13:55:41,004 - INFO -       Successfully scraped article
+2025-05-08 13:55:41,005 - INFO -       Scraping article: Keir Starmer breaks silence on US-UK trade deal with Trump
+2025-05-08 13:55:44,174 - INFO -       Successfully scraped article
+2025-05-08 13:55:44,174 - INFO -       Scraping article: What could a UK-US trade deal include and how could it effect tariffs?
+2025-05-08 13:55:46,906 - INFO -       Successfully scraped article
+2025-05-08 13:55:46,906 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:55:46,906 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-08 13:55:48,161 - INFO - Selector 'div.article' matched 86 elements
+2025-05-08 13:55:48,212 - INFO - Selector 'div.content' matched 96 elements
+2025-05-08 13:55:48,255 - INFO - Found 82 unique article links
+2025-05-08 13:55:48,256 - INFO -       Scraping article: How MobLand completely ruined the UK’s favourite swear word
+2025-05-08 13:55:51,107 - INFO -       Successfully scraped article
+2025-05-08 13:55:51,107 - INFO -       Scraping article: A 10 Things I Hate About You reboot without Heath Ledger is insanity
+2025-05-08 13:55:54,181 - INFO -       Successfully scraped article
+2025-05-08 13:55:54,181 - INFO -       Scraping article: Natasha Lyonne’s big-hearted mystery show Poker Face is a TV anomaly
+2025-05-08 13:55:57,447 - INFO -       Successfully scraped article
+2025-05-08 13:55:57,447 - INFO -       Scraping article: Tim Crouch’s experimental play An Oak Tree is pure magic
+2025-05-08 13:56:01,193 - INFO -       Successfully scraped article
+2025-05-08 13:56:01,193 - INFO -       Scraping article: Emma Jane Unsworth: ‘Women are told to feel ashamed of our fantasies’
+2025-05-08 13:56:03,596 - INFO -       Successfully scraped article
+2025-05-08 13:56:03,596 - INFO -   Scraping category: Sports
+2025-05-08 13:56:03,596 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-08 13:56:07,037 - INFO - Selector 'div.article' matched 85 elements
+2025-05-08 13:56:07,096 - INFO - Selector 'div.content' matched 111 elements
+2025-05-08 13:56:07,200 - INFO - Found 108 unique article links
+2025-05-08 13:56:07,201 - INFO -       Scraping article: Doohan’s Alpine axe a ticking time bomb and reveals F1’s cold truth
+2025-05-08 13:56:10,254 - INFO -       Successfully scraped article
+2025-05-08 13:56:10,254 - INFO -       Scraping article: Champion Pogacar’s absence leaves Giro d’Italia field wide open
+2025-05-08 13:56:14,473 - INFO -       Successfully scraped article
+2025-05-08 13:56:14,473 - INFO -       Scraping article: Fiji rugby star Josaia Raisuqe dies after tragic accident
+2025-05-08 13:56:17,010 - INFO -       Successfully scraped article
+2025-05-08 13:56:17,010 - INFO -       Scraping article: Rugby Union
+2025-05-08 13:56:20,939 - INFO -       Successfully scraped article
+2025-05-08 13:56:20,939 - INFO -       Scraping article: Ferdinand posts update from hospital ahead of missing punditry duties
+2025-05-08 13:56:24,278 - INFO -       Successfully scraped article
+2025-05-08 13:56:24,278 - INFO - Scraping from CNN
+2025-05-08 13:56:24,278 - INFO -   Scraping category: Business
+2025-05-08 13:56:24,278 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-08 13:56:27,384 - INFO - Selector 'div.card' matched 66 elements
+2025-05-08 13:56:27,448 - INFO - Selector 'div.container__item' matched 66 elements
+2025-05-08 13:56:27,506 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 38 elements
+2025-05-08 13:56:27,533 - INFO - Found 60 unique article links
+2025-05-08 13:56:27,534 - INFO -       Scraping article: Trump will announce a ‘major trade deal’ with the UK Thursday
+2025-05-08 13:56:30,863 - INFO -       Successfully scraped article
+2025-05-08 13:56:30,863 - INFO -       Scraping article: Will the Fed step in if America’s labor market cracks from Trump’s tariffs?
+2025-05-08 13:56:34,788 - INFO -       Successfully scraped article
+2025-05-08 13:56:34,789 - INFO -       Scraping article: Joe Raedle/Getty Images
+2025-05-08 13:56:39,787 - INFO -       Successfully scraped article
+2025-05-08 13:56:39,787 - INFO -       Scraping article: Craig Hudson/The Washington Post/Getty Images
+2025-05-08 13:56:43,237 - INFO -       Successfully scraped article
+2025-05-08 13:56:43,237 - INFO -       Scraping article: Fly View Productions/E+/Getty Images/File
+2025-05-08 13:56:46,354 - INFO -       Successfully scraped article
+2025-05-08 13:56:46,355 - INFO -   Scraping category: Politics
+2025-05-08 13:56:46,355 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-08 13:56:47,645 - INFO - Selector 'div.card' matched 54 elements
+2025-05-08 13:56:47,693 - INFO - Selector 'div.container__item' matched 54 elements
+2025-05-08 13:56:47,737 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 19 elements
+2025-05-08 13:56:47,749 - INFO - Found 54 unique article links
+2025-05-08 13:56:47,750 - INFO -       Scraping article: Al Drago/Bloomberg/Getty Images
+2025-05-08 13:56:50,695 - INFO -       Successfully scraped article
+2025-05-08 13:56:50,696 - INFO -       Scraping article: Upcoming changes at CIA shine a spotlight on the spy agency’s director John Ratcliffe
+2025-05-08 13:56:53,129 - INFO -       Successfully scraped article
+2025-05-08 13:56:53,129 - INFO -       Scraping article: Chief Justice John Roberts stresses judicial independence amid tensions with Trump
+2025-05-08 13:56:57,444 - INFO -       Successfully scraped article
+2025-05-08 13:56:57,444 - INFO -       Scraping article: Federal judge probing whether Trump has the power to bring back migrants deported to El Salvador
+2025-05-08 13:57:01,338 - INFO -       Successfully scraped article
+2025-05-08 13:57:01,338 - INFO -       Scraping article: Exclusive: Some ‘Les Mis’ cast members plan to boycott Trump’s attendance at Kennedy Center performance next month
+2025-05-08 13:57:03,886 - INFO -       Successfully scraped article
+2025-05-08 13:57:03,886 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:57:03,886 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-08 13:57:05,680 - INFO - Selector 'div.card' matched 32 elements
+2025-05-08 13:57:05,711 - INFO - Selector 'div.container__item' matched 32 elements
+2025-05-08 13:57:05,737 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 23 elements
+2025-05-08 13:57:05,749 - INFO - Found 32 unique article links
+2025-05-08 13:57:05,750 - INFO -       Scraping article: Frazer Harrison/Getty Images
+2025-05-08 13:57:09,838 - INFO -       Successfully scraped article
+2025-05-08 13:57:09,839 - INFO -       Scraping article: Slaven Vlasic/Getty Images
+2025-05-08 13:57:14,177 - INFO -       Successfully scraped article
+2025-05-08 13:57:14,177 - INFO -       Scraping article: Jamie McCarthy/Getty Images
+2025-05-08 13:57:17,436 - INFO -       Successfully scraped article
+2025-05-08 13:57:17,436 - INFO -       Scraping article: Hulton Archive/Getty Images
+2025-05-08 13:57:19,747 - INFO -       Successfully scraped article
+2025-05-08 13:57:19,747 - INFO -       Scraping article: Yuki Iwamura/Bloomberg/Getty Images
+2025-05-08 13:57:22,861 - INFO -       Successfully scraped article
+2025-05-08 13:57:22,861 - INFO -   Scraping category: Sports
+2025-05-08 13:57:22,861 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-08 13:57:24,200 - INFO - Selector 'div.card' matched 65 elements
+2025-05-08 13:57:24,278 - INFO - Selector 'div.container__item' matched 65 elements
+2025-05-08 13:57:24,351 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 16 elements
+2025-05-08 13:57:24,364 - INFO - Found 65 unique article links
+2025-05-08 13:57:24,365 - INFO -       Scraping article: Franck Fife/AFP/Getty Images
+2025-05-08 13:57:27,691 - INFO -       Successfully scraped article
+2025-05-08 13:57:27,692 - INFO -       Scraping article: Maddie Meyer/Getty Images
+2025-05-08 13:57:29,803 - INFO -       Successfully scraped article
+2025-05-08 13:57:29,803 - INFO -       Scraping article: Emilee Chinn/Getty Images
+2025-05-08 13:57:32,745 - INFO -       Successfully scraped article
+2025-05-08 13:57:32,746 - INFO -       Scraping article: David Dow/NBAE/Getty Images
+2025-05-08 13:57:37,913 - INFO -       Successfully scraped article
+2025-05-08 13:57:37,913 - INFO -       Scraping article: Yasser Bakhsh/Getty Images/File
+2025-05-08 13:57:41,511 - INFO -       Successfully scraped article
+2025-05-08 13:57:41,511 - INFO - Scraping from BBC
+2025-05-08 13:57:41,511 - INFO -   Scraping category: Business
+2025-05-08 13:57:41,511 - INFO -     Accessing URL: https://www.bbc.com/news/business
+2025-05-08 13:57:42,499 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:57:42,530 - INFO - Found 28 unique article links
+2025-05-08 13:57:42,530 - INFO -       Scraping article: LIVETrump says US-UK trade deal being announced today is 'full and comprehensive'The deal will be unveiled at 10:00 ET / 15:00 BST, and is expected to reduce tariffs on certain US and UK goods.
+2025-05-08 13:57:45,374 - INFO -       Successfully scraped article
+2025-05-08 13:57:45,374 - INFO -       Scraping article: What could be in the UK-US tariff deal?The two nations will announce a deal to reduce tariffs today - here's what could be in it.42 mins agoBusiness
+2025-05-08 13:57:48,855 - INFO -       Successfully scraped article
+2025-05-08 13:57:48,856 - INFO -       Scraping article: iPhone maker announces plan to build Mitsubishi EVsThe Taiwan-made electric vehicle is expected to go on sale in Australia and New Zealand next year.10 hrs ago
+2025-05-08 13:57:52,317 - INFO -       Successfully scraped article
+2025-05-08 13:57:52,317 - INFO -       Scraping article: Fed holds rates because of tariff 'uncertainty'The Federal Reserve said Trump's barrage of tariffs were generating too much uncertainty to predict its next moves.14 hrs agoBusiness
+2025-05-08 13:57:55,613 - INFO -       Successfully scraped article
+2025-05-08 13:57:55,613 - INFO -       Scraping article: Apple hits back at US judge's 'extraordinary' contempt orderThe legal battle - started by Epic Games - could determine the future of the highly lucrative App Store.4 hrs agoTechnology
+2025-05-08 13:57:59,856 - INFO -       Successfully scraped article
+2025-05-08 13:57:59,856 - INFO -   Scraping category: Politics
+2025-05-08 13:57:59,856 - INFO -     Accessing URL: https://www.bbc.com/news/politics
+2025-05-08 13:58:01,158 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:58:01,175 - INFO - Found 22 unique article links
+2025-05-08 13:58:01,175 - INFO -       Scraping article: UK Politics
+2025-05-08 13:58:05,447 - INFO -       Successfully scraped article
+2025-05-08 13:58:05,447 - INFO -       Scraping article: England
+2025-05-08 13:58:08,392 - INFO -       Successfully scraped article
+2025-05-08 13:58:08,392 - INFO -       Scraping article: N. Ireland
+2025-05-08 13:58:12,027 - INFO -       Successfully scraped article
+2025-05-08 13:58:12,027 - INFO -       Scraping article: Scotland
+2025-05-08 13:58:16,426 - INFO -       Successfully scraped article
+2025-05-08 13:58:16,426 - INFO -       Scraping article: Wales
+2025-05-08 13:58:20,010 - INFO -       Successfully scraped article
+2025-05-08 13:58:20,010 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:58:20,010 - INFO -     Accessing URL: https://www.bbc.com/news/entertainment_and_arts
+2025-05-08 13:58:21,653 - INFO - Selector 'article' matched 1 elements
+2025-05-08 13:58:21,674 - INFO - Found 25 unique article links
+2025-05-08 13:58:21,674 - INFO -       Scraping article: Smokey Robinson denies sexual assault allegationsIn a statement, the singer's lawyer says the abuse allegations are an attempt to "extract money".3 hrs agoCulture
+2025-05-08 13:58:25,713 - INFO -       Successfully scraped article
+2025-05-08 13:58:25,714 - INFO -       Scraping article: 3 Doors Down singer reveals stage four cancerBrad Arnold says he believes one of the rock band's hits, It's Not My Time, is now "really my song".14 mins agoCulture
+2025-05-08 13:58:30,336 - INFO -       Successfully scraped article
+2025-05-08 13:58:30,336 - INFO -       Scraping article: Bella Ramsey backs keeping best actress awardsThe star, who is non-binary, says it's important that "recognition for women in the industry is preserved".1 day agoCulture
+2025-05-08 13:58:34,526 - INFO -       Successfully scraped article
+2025-05-08 13:58:34,526 - INFO -       Scraping article: Gavin and Stacey star says show will not returnLarry Lamb is going on tour from Essex to Barry. 5 hrs agoEssex
+2025-05-08 13:58:38,522 - INFO -       Successfully scraped article
+2025-05-08 13:58:38,522 - INFO -       Scraping article: Ireland asks Eurovision organisers for discussion over IsraelThe director of Eurovision said no participating EBU member had publicly opposed Israeli broadcaster Kan's participation.17 hrs agoEurope
+2025-05-08 13:58:41,285 - INFO -       Successfully scraped article
+2025-05-08 13:58:41,286 - INFO -   Scraping category: Sports
+2025-05-08 13:58:41,286 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-08 13:58:42,651 - INFO - Found 0 unique article links
+2025-05-08 13:58:42,652 - INFO - Scraping from iHarare
+2025-05-08 13:58:42,652 - INFO -   Scraping category: Business
+2025-05-08 13:58:42,652 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-08 13:58:43,618 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:58:43,634 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:58:43,647 - INFO - Found 23 unique article links
+2025-05-08 13:58:43,647 - INFO -       Scraping article: Business
+2025-05-08 13:58:45,555 - INFO -       Successfully scraped article
+2025-05-08 13:58:45,555 - INFO -       Scraping article: Ministry Of Transport Apologises For False Claims On Victoria Falls Road after Being Accused Of Corruption
+2025-05-08 13:58:49,032 - INFO -       Successfully scraped article
+2025-05-08 13:58:49,032 - INFO -       Scraping article: RBZ Hands Out US$10 Million to 135 Companies Through Targeted Finance Facility
+2025-05-08 13:58:52,409 - INFO -       Successfully scraped article
+2025-05-08 13:58:52,409 - INFO -       Scraping article: Why Zimbabwe Seized Land From Black Farmers During Land Reform Program Under Mugabe: Presidential Spokesperson Explains
+2025-05-08 13:58:55,927 - INFO -       Successfully scraped article
+2025-05-08 13:58:55,927 - INFO -       Scraping article: Zimbabwe Returns Seized Farms To Black Farmers Who Lost Land Under Mugabe
+2025-05-08 13:58:58,505 - INFO -       Successfully scraped article
+2025-05-08 13:58:58,506 - INFO -   Scraping category: Politics
+2025-05-08 13:58:58,506 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-08 13:58:59,246 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:58:59,261 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:58:59,275 - INFO - Found 22 unique article links
+2025-05-08 13:58:59,276 - INFO -       Scraping article: Pics: Zim Deputy Minister Sheillah Chikomo Gets Engaged in Style – Helicopters, Yachts and Dubai Dreams
+2025-05-08 13:59:01,173 - INFO -       Successfully scraped article
+2025-05-08 13:59:01,173 - INFO -       Scraping article: ICT Minister Tatenda Mavetera Responds to Viral Bum-Shaking Dance Video
+2025-05-08 13:59:04,549 - INFO -       Successfully scraped article
+2025-05-08 13:59:04,549 - INFO -       Scraping article: Ziyambi Ziyambi Speaks On Leaked Term Extension Memo, Hints Real Amendments Are Coming
+2025-05-08 13:59:08,141 - INFO -       Successfully scraped article
+2025-05-08 13:59:08,141 - INFO -       Scraping article: Paul Mashatile Explains Delay in Beefing Up Security After Assassination Attempt
+2025-05-08 13:59:10,591 - INFO -       Successfully scraped article
+2025-05-08 13:59:10,591 - INFO -       Scraping article: Geza Drops Bombshell: Says Zimbabweans Must Stay Away INDEFINITELY Until Government Changes
+2025-05-08 13:59:14,052 - INFO -       Successfully scraped article
+2025-05-08 13:59:14,052 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:59:14,052 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-08 13:59:15,191 - INFO - Selector 'article' matched 26 elements
+2025-05-08 13:59:15,208 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-08 13:59:15,221 - INFO - Found 22 unique article links
+2025-05-08 13:59:15,222 - INFO -       Scraping article: Soweto derby heat: Springboks captain Siya Kolisi clashes with teammates (video)
+2025-05-08 13:59:17,352 - INFO -       Successfully scraped article
+2025-05-08 13:59:17,352 - INFO -       Scraping article: “Impolo Yodwa”: Siya Kolisi’s Heartwarming Videos Playing and Bonding with His Kids and Siblings Melt Hearts (Watch)
+2025-05-08 13:59:20,227 - INFO -       Successfully scraped article
+2025-05-08 13:59:20,227 - INFO -       Scraping article: From rugby to superdad: All Blacks star Ardie Savea’s daddy side melts hearts
+2025-05-08 13:59:22,133 - INFO -       Successfully scraped article
+2025-05-08 13:59:22,133 - INFO -       Scraping article: WATCH: Wicknell Chivayo Secretly Jams to Winky D – After Publicly Bashing Him?
+2025-05-08 13:59:24,113 - INFO -       Successfully scraped article
+2025-05-08 13:59:24,113 - INFO -       Scraping article: ‘She wants to be in my space’: Siya Kolisi’s sister laughs at Rachel
+2025-05-08 13:59:26,636 - INFO -       Successfully scraped article
+2025-05-08 13:59:26,636 - INFO -   Scraping category: Sports
+2025-05-08 13:59:26,636 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-08 13:59:27,355 - WARNING - Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-08 13:59:27,355 - INFO - Scraping from The Herald
+2025-05-08 13:59:27,355 - INFO -   Scraping category: Business
+2025-05-08 13:59:27,355 - INFO -     Accessing URL: https://www.herald.co.zw/category/business/
+2025-05-08 13:59:33,066 - WARNING - Failed to access https://www.herald.co.zw/category/business/, status code: 403
+2025-05-08 13:59:33,067 - INFO -   Scraping category: Politics
+2025-05-08 13:59:33,067 - INFO -     Accessing URL: https://www.herald.co.zw/category/politics/
+2025-05-08 13:59:33,730 - WARNING - Failed to access https://www.herald.co.zw/category/politics/, status code: 403
+2025-05-08 13:59:33,730 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-08 13:59:33,730 - INFO -     Accessing URL: https://www.herald.co.zw/category/entertainment/
+2025-05-08 13:59:34,363 - WARNING - Failed to access https://www.herald.co.zw/category/entertainment/, status code: 403
+2025-05-08 13:59:34,364 - INFO -   Scraping category: Sports
+2025-05-08 13:59:34,364 - INFO -     Accessing URL: https://www.herald.co.zw/category/sports/
+2025-05-08 13:59:35,095 - WARNING - Failed to access https://www.herald.co.zw/category/sports/, status code: 403
+2025-05-08 13:59:35,107 - INFO - Saved 70 articles to news_data/all_articles.csv
+2025-05-08 13:59:35,107 - INFO - Scraping completed
