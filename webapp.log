@@ -30,3 +30,128 @@
 2025-05-10 00:01:39,798 - INFO - 127.0.0.1 - - [10/May/2025 00:01:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-05-10 00:01:42,877 - INFO - Showing cluster 0
 2025-05-10 00:01:42,885 - INFO - 127.0.0.1 - - [10/May/2025 00:01:42] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:15:09,266 - INFO - Testing web app functionality
+2025-05-10 00:15:09,270 - INFO - Creating HTML templates
+2025-05-10 00:15:09,270 - INFO - Templates created successfully
+2025-05-10 00:15:09,270 - INFO - Creating HTML templates
+2025-05-10 00:15:09,270 - INFO - Templates created successfully
+2025-05-10 00:15:09,271 - INFO - Critical file status:
+2025-05-10 00:15:09,271 - INFO -   - templates/index.html: ✓
+2025-05-10 00:15:09,271 - INFO -   - templates/cluster.html: ✓
+2025-05-10 00:15:09,271 - INFO -   - static/cluster_data.json: ✓
+2025-05-10 00:15:09,271 - INFO - Starting browser thread for http://localhost:5007
+2025-05-10 00:15:09,271 - INFO - Starting Flask server on port 5007
+2025-05-10 00:15:33,656 - INFO - Testing web app functionality
+2025-05-10 00:15:33,661 - INFO - Creating HTML templates
+2025-05-10 00:15:33,661 - INFO - Templates created successfully
+2025-05-10 00:15:33,661 - INFO - Creating HTML templates
+2025-05-10 00:15:33,662 - INFO - Templates created successfully
+2025-05-10 00:15:33,662 - INFO - Critical file status:
+2025-05-10 00:15:33,662 - INFO -   - templates/index.html: ✓
+2025-05-10 00:15:33,662 - INFO -   - templates/cluster.html: ✓
+2025-05-10 00:15:33,662 - INFO -   - static/cluster_data.json: ✓
+2025-05-10 00:15:33,662 - INFO - Starting browser thread for http://localhost:1234
+2025-05-10 00:15:33,663 - INFO - Starting Flask server on port 1234
+2025-05-10 00:15:33,668 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1234
+ * Running on http://10.29.68.123:1234
+2025-05-10 00:15:33,668 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 00:15:35,663 - INFO - Opening browser at http://localhost:1234
+2025-05-10 00:15:35,879 - INFO - Rendering index page
+2025-05-10 00:15:35,884 - INFO - 127.0.0.1 - - [10/May/2025 00:15:35] "GET / HTTP/1.1" 200 -
+2025-05-10 00:15:35,935 - INFO - 127.0.0.1 - - [10/May/2025 00:15:35] "GET /static/clusters.png HTTP/1.1" 200 -
+2025-05-10 00:15:35,984 - INFO - Fetching cluster data
+2025-05-10 00:15:35,985 - INFO - 127.0.0.1 - - [10/May/2025 00:15:35] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:15:36,020 - INFO - 127.0.0.1 - - [10/May/2025 00:15:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 00:15:38,329 - INFO - Showing cluster 0
+2025-05-10 00:15:38,334 - INFO - 127.0.0.1 - - [10/May/2025 00:15:38] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:15:40,141 - INFO - Rendering index page
+2025-05-10 00:15:40,142 - INFO - 127.0.0.1 - - [10/May/2025 00:15:40] "GET / HTTP/1.1" 200 -
+2025-05-10 00:15:40,175 - INFO - 127.0.0.1 - - [10/May/2025 00:15:40] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:15:40,180 - INFO - Fetching cluster data
+2025-05-10 00:15:40,181 - INFO - 127.0.0.1 - - [10/May/2025 00:15:40] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:16:00,312 - INFO - Rendering index page
+2025-05-10 00:16:00,312 - INFO - 127.0.0.1 - - [10/May/2025 00:16:00] "GET / HTTP/1.1" 200 -
+2025-05-10 00:16:00,342 - INFO - 127.0.0.1 - - [10/May/2025 00:16:00] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:16:00,347 - INFO - Fetching cluster data
+2025-05-10 00:16:00,348 - INFO - 127.0.0.1 - - [10/May/2025 00:16:00] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:16:02,502 - INFO - Rendering index page
+2025-05-10 00:16:02,502 - INFO - 127.0.0.1 - - [10/May/2025 00:16:02] "GET / HTTP/1.1" 200 -
+2025-05-10 00:16:02,528 - INFO - 127.0.0.1 - - [10/May/2025 00:16:02] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:16:02,547 - INFO - Fetching cluster data
+2025-05-10 00:16:02,548 - INFO - 127.0.0.1 - - [10/May/2025 00:16:02] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:16:03,981 - INFO - Showing cluster 0
+2025-05-10 00:16:03,982 - INFO - 127.0.0.1 - - [10/May/2025 00:16:03] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:16:48,917 - INFO - Testing web app functionality
+2025-05-10 00:16:48,921 - INFO - Creating HTML templates
+2025-05-10 00:16:48,921 - INFO - Templates created successfully
+2025-05-10 00:16:48,921 - INFO - Creating HTML templates
+2025-05-10 00:16:48,921 - INFO - Templates created successfully
+2025-05-10 00:16:48,921 - INFO - Critical file status:
+2025-05-10 00:16:48,921 - INFO -   - templates/index.html: ✓
+2025-05-10 00:16:48,921 - INFO -   - templates/cluster.html: ✓
+2025-05-10 00:16:48,921 - INFO -   - static/cluster_data.json: ✓
+2025-05-10 00:16:48,921 - INFO - Starting browser thread for http://localhost:1234
+2025-05-10 00:16:48,922 - INFO - Starting Flask server on port 1234
+2025-05-10 00:16:48,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1234
+ * Running on http://10.29.68.123:1234
+2025-05-10 00:16:48,925 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 00:16:50,922 - INFO - Opening browser at http://localhost:1234
+2025-05-10 00:16:51,090 - INFO - Rendering index page
+2025-05-10 00:16:51,094 - INFO - 127.0.0.1 - - [10/May/2025 00:16:51] "GET / HTTP/1.1" 200 -
+2025-05-10 00:16:51,135 - INFO - 127.0.0.1 - - [10/May/2025 00:16:51] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:16:51,181 - INFO - Fetching cluster data
+2025-05-10 00:16:51,182 - INFO - 127.0.0.1 - - [10/May/2025 00:16:51] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:16:53,656 - INFO - Showing cluster 0
+2025-05-10 00:16:53,662 - INFO - 127.0.0.1 - - [10/May/2025 00:16:53] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:17:03,031 - INFO - Rendering index page
+2025-05-10 00:17:03,032 - INFO - 127.0.0.1 - - [10/May/2025 00:17:03] "GET / HTTP/1.1" 200 -
+2025-05-10 00:17:03,070 - INFO - 127.0.0.1 - - [10/May/2025 00:17:03] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:17:03,073 - INFO - Fetching cluster data
+2025-05-10 00:17:03,074 - INFO - 127.0.0.1 - - [10/May/2025 00:17:03] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:23:35,943 - INFO - Testing web app functionality
+2025-05-10 00:23:35,947 - INFO - Creating HTML templates
+2025-05-10 00:23:35,947 - INFO - Templates created successfully
+2025-05-10 00:23:35,947 - INFO - Creating HTML templates
+2025-05-10 00:23:35,947 - INFO - Templates created successfully
+2025-05-10 00:23:35,947 - INFO - Critical file status:
+2025-05-10 00:23:35,947 - INFO -   - templates/index.html: ✓
+2025-05-10 00:23:35,947 - INFO -   - templates/cluster.html: ✓
+2025-05-10 00:23:35,947 - INFO -   - static/cluster_data.json: ✓
+2025-05-10 00:23:35,947 - INFO - Starting browser thread for http://localhost:1234
+2025-05-10 00:23:35,948 - INFO - Starting Flask server on port 1234
+2025-05-10 00:23:35,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1234
+ * Running on http://10.29.68.123:1234
+2025-05-10 00:23:35,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 00:23:37,948 - INFO - Opening browser at http://localhost:1234
+2025-05-10 00:23:38,132 - INFO - Rendering index page
+2025-05-10 00:23:38,136 - INFO - 127.0.0.1 - - [10/May/2025 00:23:38] "GET / HTTP/1.1" 200 -
+2025-05-10 00:23:38,185 - INFO - 127.0.0.1 - - [10/May/2025 00:23:38] "GET /static/clusters.png HTTP/1.1" 200 -
+2025-05-10 00:23:38,251 - INFO - Fetching cluster data
+2025-05-10 00:23:38,251 - INFO - 127.0.0.1 - - [10/May/2025 00:23:38] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:23:44,081 - INFO - Showing cluster 0
+2025-05-10 00:23:44,087 - INFO - 127.0.0.1 - - [10/May/2025 00:23:44] "GET /cluster/0 HTTP/1.1" 200 -
+2025-05-10 00:23:48,669 - INFO - Rendering index page
+2025-05-10 00:23:48,670 - INFO - 127.0.0.1 - - [10/May/2025 00:23:48] "GET / HTTP/1.1" 200 -
+2025-05-10 00:23:48,706 - INFO - 127.0.0.1 - - [10/May/2025 00:23:48] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:23:48,709 - INFO - Fetching cluster data
+2025-05-10 00:23:48,710 - INFO - 127.0.0.1 - - [10/May/2025 00:23:48] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:23:50,165 - INFO - Showing cluster 2
+2025-05-10 00:23:50,166 - INFO - 127.0.0.1 - - [10/May/2025 00:23:50] "GET /cluster/2 HTTP/1.1" 200 -
+2025-05-10 00:23:52,473 - INFO - Rendering index page
+2025-05-10 00:23:52,474 - INFO - 127.0.0.1 - - [10/May/2025 00:23:52] "GET / HTTP/1.1" 200 -
+2025-05-10 00:23:52,511 - INFO - 127.0.0.1 - - [10/May/2025 00:23:52] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:23:52,515 - INFO - Fetching cluster data
+2025-05-10 00:23:52,516 - INFO - 127.0.0.1 - - [10/May/2025 00:23:52] "GET /api/clusters HTTP/1.1" 200 -
+2025-05-10 00:23:53,963 - INFO - Showing cluster 3
+2025-05-10 00:23:53,964 - INFO - 127.0.0.1 - - [10/May/2025 00:23:53] "GET /cluster/3 HTTP/1.1" 200 -
+2025-05-10 00:23:55,592 - INFO - Rendering index page
+2025-05-10 00:23:55,593 - INFO - 127.0.0.1 - - [10/May/2025 00:23:55] "GET / HTTP/1.1" 200 -
+2025-05-10 00:23:55,631 - INFO - 127.0.0.1 - - [10/May/2025 00:23:55] "[36mGET /static/clusters.png HTTP/1.1[0m" 304 -
+2025-05-10 00:23:55,642 - INFO - Fetching cluster data
+2025-05-10 00:23:55,643 - INFO - 127.0.0.1 - - [10/May/2025 00:23:55] "GET /api/clusters HTTP/1.1" 200 -

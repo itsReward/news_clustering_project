@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 class WebApp:
     def __init__(self):
         self.app = Flask(__name__)
-        self.port = 5007
+        self.port = 1234
         self.setup_routes()
 
     def setup_routes(self):
