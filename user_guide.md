@@ -1,4 +1,4 @@
-# Zimbabwe News Article Clustering Application - User Guide
+# News Article Clustering Application - User Guide
 
 This guide will help you understand how to use the Zimbabwe News Article Clustering Application and explain how it works.
 
