@@ -1,0 +1,28 @@
+2025-05-10 00:29:23,022 - INFO - ✓ Found news_data/all_articles.csv (Size: 289.02 KB)
+2025-05-10 00:29:23,029 - INFO - Successfully loaded 70 articles from news_data/all_articles.csv
+2025-05-10 00:29:23,029 - INFO - Sample of loaded data:
+2025-05-10 00:29:23,030 - INFO - Article 1: BlackRock’s billions show it’s not all gloom for UK business from Independent
+2025-05-10 00:29:23,030 - INFO - Article 2: Why Tesla’s fall forced Musk to step back from DOGE from Independent
+2025-05-10 00:29:23,030 - INFO - Article 3: Business from Independent
+2025-05-10 00:29:23,030 - INFO - Creating clusters from scraped data...
+2025-05-10 00:29:23,031 - INFO - Found 4 unique categories: Business, Politics, Arts/Culture/Celebrities, Sports
+2025-05-10 00:29:23,032 - INFO - Created cluster 0 for category 'Business' with 20 articles
+2025-05-10 00:29:23,033 - INFO - Created cluster 1 for category 'Politics' with 20 articles
+2025-05-10 00:29:23,034 - INFO - Created cluster 2 for category 'Arts/Culture/Celebrities' with 20 articles
+2025-05-10 00:29:23,035 - INFO - Created cluster 3 for category 'Sports' with 10 articles
+2025-05-10 00:29:23,035 - INFO - Saving clusters to static/cluster_data.json
+2025-05-10 00:29:23,037 - INFO - Successfully saved 4 clusters to static/cluster_data.json
+2025-05-10 00:37:45,855 - INFO - ✓ Found news_data/all_articles.csv (Size: 254.49 KB)
+2025-05-10 00:37:45,862 - INFO - Successfully loaded 70 articles from news_data/all_articles.csv
+2025-05-10 00:37:45,862 - INFO - Sample of loaded data:
+2025-05-10 00:37:45,862 - INFO - Article 1: BlackRock’s billions show it’s not all gloom for UK business from Independent
+2025-05-10 00:37:45,862 - INFO - Article 2: Why Tesla’s fall forced Musk to step back from DOGE from Independent
+2025-05-10 00:37:45,863 - INFO - Article 3: Business from Independent
+2025-05-10 00:37:45,863 - INFO - Creating clusters from scraped data...
+2025-05-10 00:37:45,863 - INFO - Found 4 unique categories: Business, Politics, Arts/Culture/Celebrities, Sports
+2025-05-10 00:37:45,865 - INFO - Created cluster 0 for category 'Business' with 20 articles
+2025-05-10 00:37:45,866 - INFO - Created cluster 1 for category 'Politics' with 20 articles
+2025-05-10 00:37:45,867 - INFO - Created cluster 2 for category 'Arts/Culture/Celebrities' with 20 articles
+2025-05-10 00:37:45,868 - INFO - Created cluster 3 for category 'Sports' with 10 articles
+2025-05-10 00:37:45,868 - INFO - Saving clusters to static/cluster_data.json
+2025-05-10 00:37:45,870 - INFO - Successfully saved 4 clusters to static/cluster_data.json

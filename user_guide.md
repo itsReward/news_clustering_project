@@ -5,12 +5,14 @@ This guide will help you understand how to use the Zimbabwe News Article Cluster
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Getting Started](#getting-started)
-3. [Understanding the Web Scraper](#understanding-the-web-scraper)
-4. [Understanding the Clustering Algorithm](#understanding-the-clustering-algorithm)
-5. [Using the Web Interface](#using-the-web-interface)
-6. [Troubleshooting](#troubleshooting)
-7. [Extending the Application](#extending-the-application)
+2. [Complete Workflow](#complete-workflow)
+3. [Step-by-Step Guide](#step-by-step-guide)
+4. [Understanding the Web Scraper](#understanding-the-web-scraper)
+5. [Understanding the Clustering Algorithm](#understanding-the-clustering-algorithm)
+6. [Using the Web Interface](#using-the-web-interface)
+7. [Troubleshooting](#troubleshooting)
+8. [Debugging Tools](#debugging-tools)
+9. [Extending the Application](#extending-the-application)
 
 ## Overview
 
@@ -24,40 +26,59 @@ The Zimbabwe News Article Clustering Application is a comprehensive system that:
 The application consists of three main components:
 
 - **Web Scraper (`newspaper_scrapper.py`)**: Collects articles from configured news sources
-- **Clustering Algorithm (`cluster_articles.py`)**: Organizes articles into meaningful groups
-- **Web Interface (`fixed_webapp.py`)**: Displays the clusters and articles in a user-friendly way
+- **Data Processor (`process_scraped_data.py`)**: Organizes articles into meaningful clusters
+- **Web Interface (`webapp.py`)**: Displays the clusters and articles in a user-friendly way
 
-## Getting Started
+## Complete Workflow
 
-The easiest way to get started is to use the provided installation script:
+The easiest way to run the entire application is to use the complete workflow script:
 
 ```bash
-python install_and_run.py
+python workflow.py
 ```
 
-This script will:
-1. Check your Python version
-2. Install required packages
-3. Set up HTML templates
-4. Create sample data if needed
-5. Start the web application
+This script guides you through the entire process:
+1. Checks your Python version and installs required packages
+2. Runs the web scraper to collect articles
+3. Processes the scraped data to create clusters
+4. Sets up the necessary HTML templates
+5. Starts the web application
 
-Alternatively, you can manually run each component:
+This is the recommended approach, especially if you're encountering issues with displaying your scraped data.
 
-1. Set up templates:
-   ```bash
-   python setup_templates.py
-   ```
+## Step-by-Step Guide
 
-2. Create cluster data:
-   ```bash
-   python cluster_articles.py
-   ```
+If you prefer to run each component manually, follow these steps:
 
-3. Run the web application:
-   ```bash
-   python fixed_webapp.py
-   ```
+### 1. Install Dependencies
+
+```bash
+pip install flask requests beautifulsoup4 pandas scikit-learn pillow numpy
+```
+
+### 2. Run the Web Scraper
+
+```bash
+python newspaper_scrapper.py
+```
+
+This will collect articles from the configured news sources and save them to CSV files in the `news_data/` directory.
+
+### 3. Process the Scraped Data
+
+```bash
+python process_scraped_data.py
+```
+
+This critical step reads your scraped data from `news_data/all_articles.csv` and creates clusters for the web application.
+
+### 4. Run the Web Application
+
+```bash
+python fixed_webapp.py
+```
+
+This starts the web interface where you can browse the clustered articles.
 
 ## Understanding the Web Scraper
 
@@ -90,23 +111,23 @@ To add or modify news sources, you can edit the `define_newspaper_structures` me
 
 ## Understanding the Clustering Algorithm
 
-The clustering algorithm (`cluster_articles.py`) organizes the scraped articles into meaningful groups.
+The data processing scripts (`process_scraped_data.py` and `cluster_articles.py`) organize the scraped articles into meaningful groups.
 
 ### How it Works
 
-1. It loads article data from the CSV files
+1. It loads article data from `news_data/all_articles.csv`
 2. It categorizes articles based on their assigned categories
 3. It creates clusters for each category
 4. The clustered data is saved to `static/cluster_data.json` for the web interface
 
 ### Advanced Clustering Options
 
-The current implementation uses a simple approach of clustering by category. However, the code includes commented sections for more advanced approaches:
+The current implementation uses a simple approach of clustering by category. However, the code includes options for more advanced approaches:
 
 - **TF-IDF Vectorization**: Converts article content into numerical features
 - **K-means Clustering**: Groups articles based on content similarity
 
-You can enable these advanced options by uncommenting the relevant sections in `cluster_articles.py`.
+These advanced options can be enabled by modifying the relevant sections in `process_scraped_data.py`.
 
 ## Using the Web Interface
 
@@ -139,48 +160,72 @@ Clicking on a cluster card takes you to the cluster view, which shows:
 
 ### Common Issues
 
-1. **Web application not starting**
+1. **Web application showing dummy data instead of scraped data**
+   - Make sure you've run `process_scraped_data.py` after scraping
+   - Check that `news_data/all_articles.csv` exists and contains your data
+   - Use `debug_csv.py` to diagnose issues with your CSV file
+
+2. **Web application not starting**
    - Make sure you're running `fixed_webapp.py`, not `newspaper_scrapper.py`
    - Check that the required packages are installed
    - Look for error messages in the console or log files
 
-2. **No clusters appearing**
+3. **No clusters appearing**
    - Check if `static/cluster_data.json` exists and has valid content
-   - Run `cluster_articles.py` to generate the cluster data
+   - Run `process_scraped_data.py` to generate the cluster data from your CSV
 
-3. **Scraper not collecting articles**
+4. **Scraper not collecting articles**
    - The website structures may have changed; update the selectors
    - Check your internet connection
    - The website might be blocking automated scrapers
+
+### Data Flow Issues
+
+If you're having issues with the data flow between components, run the complete workflow script with the `--verbose` flag:
+
+```bash
+python workflow.py --verbose
+```
+
+This will show detailed logs of each step, helping you identify where the process is breaking down.
 
 ### Logging
 
 The application creates several log files:
 - `scraper.log`: Logs from the web scraper
-- `clustering.log`: Logs from the clustering algorithm
+- `process_data.log`: Logs from the data processing
 - `webapp.log`: Logs from the web application
 
 Check these files for detailed error information.
 
-## Extending the Application
+## Debugging Tools
 
-### Adding New Features
+The application includes several debugging tools to help you diagnose and fix issues:
 
-1. **Additional Categories**: Modify the `categories` dictionary in `newspaper_scrapper.py`
+### CSV Debugger
 
-2. **New Clustering Methods**: Implement alternative clustering algorithms in `cluster_articles.py`
+If you suspect issues with your CSV data, run:
 
-3. **Enhanced Web Interface**: Modify the HTML templates in the `templates/` directory
+```bash
+python debug_csv.py
+```
 
-### Integration with Other Systems
+This tool:
+- Checks if your CSV file exists and can be read
+- Displays the content and structure of the file
+- Tests the clustering process with your real data
+- Attempts to fix common issues with the CSV file
 
-The application's modular design allows for integration with other systems:
+### Install and Run Script
 
-1. **Database Storage**: Replace CSV files with a database
+For a guided installation and setup experience:
 
-2. **API Service**: Add API endpoints to the web application
+```bash
+python install_and_run.py
+```
 
-3. **Automated Scraping**: Set up scheduled tasks to run the scraper regularly
+This script helps you correctly set up all dependencies and components.
+
 
 ---
 
@@ -191,8 +236,10 @@ The application's modular design allows for integration with other systems:
 ```
 project_root/
 ├── newspaper_scrapper.py     # Web scraper
-├── fixed_webapp.py           # Web application
-├── cluster_articles.py       # Clustering algorithm
+├── process_scraped_data.py   # Processes CSV data into clusters
+├── webapp.py                 # Web application
+├── debug_csv.py              # Tool for diagnosing CSV issues
+├── workflow.py               # Complete workflow script
 ├── setup_templates.py        # Template setup
 ├── install_and_run.py        # Installation script
 ├── README.md                 # Project overview

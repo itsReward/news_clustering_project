@@ -980,3 +980,242 @@ Step 2: Clustering articles
 2025-05-08 13:59:35,095 - WARNING - Failed to access https://www.herald.co.zw/category/sports/, status code: 403
 2025-05-08 13:59:35,107 - INFO - Saved 70 articles to news_data/all_articles.csv
 2025-05-08 13:59:35,107 - INFO - Scraping completed
+2025-05-10 00:32:22,031 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-10 00:32:22,031 - INFO - =============================
+2025-05-10 00:32:22,031 - INFO - Starting web scraping process
+2025-05-10 00:32:22,031 - INFO - Scraping from Independent
+2025-05-10 00:32:22,032 - INFO -   Scraping category: Business
+2025-05-10 00:32:22,032 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-10 00:32:23,387 - INFO - Selector 'div.article' matched 94 elements
+2025-05-10 00:32:23,452 - INFO - Selector 'div.content' matched 109 elements
+2025-05-10 00:32:23,504 - INFO - Found 101 unique article links
+2025-05-10 00:32:23,505 - INFO -       Scraping article: BlackRock’s billions show it’s not all gloom for UK business
+2025-05-10 00:32:26,189 - INFO -       Successfully scraped article
+2025-05-10 00:32:26,189 - INFO -       Scraping article: Why Tesla’s fall forced Musk to step back from DOGE
+2025-05-10 00:32:28,046 - INFO -       Successfully scraped article
+2025-05-10 00:32:28,046 - INFO -       Scraping article: Business
+2025-05-10 00:32:31,419 - INFO -       Successfully scraped article
+2025-05-10 00:32:31,419 - INFO -       Scraping article: Mandelson ‘looking forward’ to bringing down more US tariffs
+2025-05-10 00:32:33,545 - INFO -       Successfully scraped article
+2025-05-10 00:32:33,545 - INFO -       Scraping article: Trump ‘committed’ to 10% tariff rate despite deal, says White House
+2025-05-10 00:32:36,420 - INFO -       Successfully scraped article
+2025-05-10 00:32:36,420 - INFO -   Scraping category: Politics
+2025-05-10 00:32:36,420 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-10 00:32:36,789 - INFO - Selector 'div.article' matched 106 elements
+2025-05-10 00:32:36,861 - INFO - Selector 'div.content' matched 120 elements
+2025-05-10 00:32:36,917 - INFO - Found 105 unique article links
+2025-05-10 00:32:36,918 - INFO -       Scraping article: Digitising NHS and adult social care ‘will cost £21bn over the next five years’
+2025-05-10 00:32:39,113 - INFO -       Successfully scraped article
+2025-05-10 00:32:39,114 - INFO -       Scraping article: UK Politics
+2025-05-10 00:32:43,066 - INFO -       Successfully scraped article
+2025-05-10 00:32:43,066 - INFO -       Scraping article: Keir Starmer breaks silence on US-UK trade deal with Trump
+2025-05-10 00:32:48,501 - INFO -       Successfully scraped article
+2025-05-10 00:32:48,501 - INFO -       Scraping article: What could a UK-US trade deal include and how could it effect tariffs?
+2025-05-10 00:32:50,639 - INFO -       Successfully scraped article
+2025-05-10 00:32:50,639 - INFO -       Scraping article: Who will benefit most from a new UK-US trade deal?
+2025-05-10 00:32:52,249 - INFO -       Successfully scraped article
+2025-05-10 00:32:52,249 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-10 00:32:52,249 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-10 00:32:52,577 - INFO - Selector 'div.article' matched 86 elements
+2025-05-10 00:32:52,626 - INFO - Selector 'div.content' matched 96 elements
+2025-05-10 00:32:52,666 - INFO - Found 82 unique article links
+2025-05-10 00:32:52,666 - INFO -       Scraping article: How MobLand completely ruined the UK’s favourite swear word
+2025-05-10 00:32:55,860 - INFO -       Successfully scraped article
+2025-05-10 00:32:55,860 - INFO -       Scraping article: A 10 Things I Hate About You reboot without Heath Ledger is insanity
+2025-05-10 00:32:58,423 - INFO -       Successfully scraped article
+2025-05-10 00:32:58,423 - INFO -       Scraping article: Here We Are charms, but Sondheim’s final musical feels incomplete
+2025-05-10 00:33:01,104 - INFO -       Successfully scraped article
+2025-05-10 00:33:01,104 - INFO -       Scraping article: Thom Yorke and Mark Pritchard’s album is full of existential jitters
+2025-05-10 00:33:03,674 - INFO -       Successfully scraped article
+2025-05-10 00:33:03,674 - INFO -       Scraping article: The Surfer allows Nicolas Cage to go wild – then leaves him hanging
+2025-05-10 00:33:05,197 - INFO -       Successfully scraped article
+2025-05-10 00:33:05,197 - INFO -   Scraping category: Sports
+2025-05-10 00:33:05,197 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-10 00:33:05,587 - INFO - Selector 'div.article' matched 85 elements
+2025-05-10 00:33:05,643 - INFO - Selector 'div.content' matched 111 elements
+2025-05-10 00:33:05,744 - INFO - Found 111 unique article links
+2025-05-10 00:33:05,745 - INFO -       Scraping article: Alonso confirms Bayer Leverkusen departure with Real Madrid in waiting
+2025-05-10 00:33:08,859 - INFO -       Successfully scraped article
+2025-05-10 00:33:08,859 - INFO -       Scraping article: Football
+2025-05-10 00:33:11,681 - INFO -       Successfully scraped article
+2025-05-10 00:33:11,681 - INFO -       Scraping article: Salah wins Footballer of the Year award to match Henry record
+2025-05-10 00:33:14,695 - INFO -       Successfully scraped article
+2025-05-10 00:33:14,696 - INFO -       Scraping article: IPL season suspended for one week amid India-Pakistan conflict
+2025-05-10 00:33:16,906 - INFO -       Successfully scraped article
+2025-05-10 00:33:16,907 - INFO -       Scraping article: Cricket
+2025-05-10 00:33:19,982 - INFO -       Successfully scraped article
+2025-05-10 00:33:19,983 - INFO - Scraping from CNN
+2025-05-10 00:33:19,988 - INFO -   Scraping category: Business
+2025-05-10 00:33:19,988 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-10 00:33:21,224 - INFO - Selector 'div.card' matched 66 elements
+2025-05-10 00:33:21,287 - INFO - Selector 'div.container__item' matched 66 elements
+2025-05-10 00:33:21,346 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 38 elements
+2025-05-10 00:33:21,372 - INFO - Found 60 unique article links
+2025-05-10 00:33:21,372 - INFO -       Scraping article: Inside Trump’s negotiating strategy with China
+2025-05-10 00:33:34,312 - INFO -       Successfully scraped article
+2025-05-10 00:33:34,312 - INFO -       Scraping article: Why prediction markets failed to see the American pope coming
+2025-05-10 00:33:36,812 - INFO -       Successfully scraped article
+2025-05-10 00:33:36,812 - INFO -       Scraping article: Anna Moneymaker/Getty Images
+2025-05-10 00:34:10,255 - INFO -       Successfully scraped article
+2025-05-10 00:34:10,255 - INFO -       Scraping article: Anna Moneymaker/Getty Images
+2025-05-10 00:34:13,155 - INFO -       Successfully scraped article
+2025-05-10 00:34:13,155 - INFO -       Scraping article: Brian Melley/AP
+2025-05-10 00:34:50,539 - INFO -       Successfully scraped article
+2025-05-10 00:34:50,539 - INFO -   Scraping category: Politics
+2025-05-10 00:34:50,539 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-10 00:34:52,777 - INFO - Selector 'div.card' matched 54 elements
+2025-05-10 00:34:52,827 - INFO - Selector 'div.container__item' matched 54 elements
+2025-05-10 00:34:52,873 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 19 elements
+2025-05-10 00:34:52,885 - INFO - Found 54 unique article links
+2025-05-10 00:34:52,886 - INFO -       Scraping article: Joe Raedle/Getty Images
+2025-05-10 00:34:55,813 - INFO -       Successfully scraped article
+2025-05-10 00:34:55,813 - INFO -       Scraping article: Congress needs to address debt ceiling before its August recess to prevent default, Treasury secretary says
+2025-05-10 00:34:59,754 - INFO -       Successfully scraped article
+2025-05-10 00:34:59,754 - INFO -       Scraping article: Supreme Court Justice David Souter, a Bush nominee who veered to the left, dies at 85
+2025-05-10 00:35:03,603 - INFO -       Successfully scraped article
+2025-05-10 00:35:03,603 - INFO -       Scraping article: US warns that if Sunday Iran talks aren’t productive, ‘they won’t continue’
+2025-05-10 00:35:08,725 - INFO -       Successfully scraped article
+2025-05-10 00:35:08,725 - INFO -       Scraping article: Pentagon orders military academies to review books for possible removal
+2025-05-10 00:35:13,236 - INFO -       Successfully scraped article
+2025-05-10 00:35:13,236 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-10 00:35:13,236 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-10 00:35:15,624 - INFO - Selector 'div.card' matched 32 elements
+2025-05-10 00:35:15,653 - INFO - Selector 'div.container__item' matched 32 elements
+2025-05-10 00:35:15,679 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 22 elements
+2025-05-10 00:35:15,693 - INFO - Found 31 unique article links
+2025-05-10 00:35:15,693 - INFO -       Scraping article: Rob Kim/Getty Images North America/Getty Images
+2025-05-10 00:35:19,399 - INFO -       Successfully scraped article
+2025-05-10 00:35:19,399 - INFO -       Scraping article: Tasos Katopodis/Getty Images
+2025-05-10 00:35:22,894 - INFO -       Successfully scraped article
+2025-05-10 00:35:22,894 - INFO -       Scraping article: Gilbert Flores/Variety via Getty Images
+2025-05-10 00:35:25,911 - INFO -       Successfully scraped article
+2025-05-10 00:35:25,911 - INFO -       Scraping article: Dia Dipasupil/Getty Images
+2025-05-10 00:35:30,584 - INFO -       Successfully scraped article
+2025-05-10 00:35:30,584 - INFO -       Scraping article: Loic Venance/AFP via Getty Images
+2025-05-10 00:35:33,836 - INFO -       Successfully scraped article
+2025-05-10 00:35:33,836 - INFO -   Scraping category: Sports
+2025-05-10 00:35:33,836 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-10 00:35:50,958 - INFO - Selector 'div.card' matched 65 elements
+2025-05-10 00:35:51,036 - INFO - Selector 'div.container__item' matched 65 elements
+2025-05-10 00:35:51,109 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 16 elements
+2025-05-10 00:35:51,122 - INFO - Found 65 unique article links
+2025-05-10 00:35:51,123 - INFO -       Scraping article: Jonathan Hawkins/CNN
+2025-05-10 00:35:55,385 - INFO -       Successfully scraped article
+2025-05-10 00:35:55,385 - INFO -       Scraping article: David Berding/Getty Images
+2025-05-10 00:36:00,124 - INFO -       Successfully scraped article
+2025-05-10 00:36:00,124 - INFO -       Scraping article: Loic Cousin/Icon Sport/Getty Images
+2025-05-10 00:36:07,440 - INFO -       Successfully scraped article
+2025-05-10 00:36:07,440 - INFO -       Scraping article: Maddie Meyer/Getty Images
+2025-05-10 00:36:12,411 - INFO -       Successfully scraped article
+2025-05-10 00:36:12,411 - INFO -       Scraping article: Emilee Chinn/Getty Images
+2025-05-10 00:36:15,428 - INFO -       Successfully scraped article
+2025-05-10 00:36:15,428 - INFO - Scraping from BBC
+2025-05-10 00:36:15,433 - INFO -   Scraping category: Business
+2025-05-10 00:36:15,433 - INFO -     Accessing URL: https://www.bbc.com/news/business
+2025-05-10 00:36:17,665 - INFO - Selector 'article' matched 1 elements
+2025-05-10 00:36:17,694 - INFO - Found 28 unique article links
+2025-05-10 00:36:17,695 - INFO -       Scraping article: Trump proposes 80% China tariff ahead of trade talks The meeting is the strongest sign yet that the world's two biggest economies are ready to de-escalate their trade war.9 hrs agoBusiness
+2025-05-10 00:36:19,588 - INFO -       Successfully scraped article
+2025-05-10 00:36:19,588 - INFO -       Scraping article: Mexico sues Google over 'Gulf of America' name changePresident Sheinbaum argues Trump's executive order applies only to the US portion of the continental shelf. 4 hrs agoWorld
+2025-05-10 00:36:22,592 - INFO -       Successfully scraped article
+2025-05-10 00:36:22,592 - INFO -       Scraping article: US and UK agree to deal slashing Trump tariffs on cars and metalsIt will leave a 10% import tax on most goods shipped from the UK to the US. 1 day agoBusiness
+2025-05-10 00:36:24,815 - INFO -       Successfully scraped article
+2025-05-10 00:36:24,815 - INFO -       Scraping article: What is in the UK-US tariff deal?The two nations have announced a deal to reduce tariffs - here's what you need to know.8 hrs agoBusiness
+2025-05-10 00:36:27,892 - INFO -       Successfully scraped article
+2025-05-10 00:36:27,893 - INFO -       Scraping article: Hormone-treated beef will not enter UK after US deal, says governmentFarmers are raising questions over how checks will ensure US beef produced using hormones doesn't enter the UK market.8 hrs agoBusiness
+2025-05-10 00:36:30,062 - INFO -       Successfully scraped article
+2025-05-10 00:36:30,062 - INFO -   Scraping category: Politics
+2025-05-10 00:36:30,062 - INFO -     Accessing URL: https://www.bbc.com/news/politics
+2025-05-10 00:36:30,986 - INFO - Selector 'article' matched 1 elements
+2025-05-10 00:36:31,001 - INFO - Found 22 unique article links
+2025-05-10 00:36:31,001 - INFO -       Scraping article: UK Politics
+2025-05-10 00:36:33,962 - INFO -       Successfully scraped article
+2025-05-10 00:36:33,962 - INFO -       Scraping article: England
+2025-05-10 00:36:35,842 - INFO -       Successfully scraped article
+2025-05-10 00:36:35,842 - INFO -       Scraping article: N. Ireland
+2025-05-10 00:36:38,650 - INFO -       Successfully scraped article
+2025-05-10 00:36:38,650 - INFO -       Scraping article: Scotland
+2025-05-10 00:36:42,285 - INFO -       Successfully scraped article
+2025-05-10 00:36:42,285 - INFO -       Scraping article: Wales
+2025-05-10 00:36:44,530 - INFO -       Successfully scraped article
+2025-05-10 00:36:44,530 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-10 00:36:44,530 - INFO -     Accessing URL: https://www.bbc.com/news/entertainment_and_arts
+2025-05-10 00:36:45,528 - INFO - Selector 'article' matched 1 elements
+2025-05-10 00:36:45,550 - INFO - Found 25 unique article links
+2025-05-10 00:36:45,550 - INFO -       Scraping article: Molly-Mae confirms she and Tommy are back togetherThe pair announced their split last August, five years after they met on reality series Love Island.10 hrs agoCulture
+2025-05-10 00:36:48,908 - INFO -       Successfully scraped article
+2025-05-10 00:36:48,908 - INFO -       Scraping article: Why these 2000s indie heroes are back and bigger than everAfter being dismissed as "indie landfill", many guitar bands are back with a vengeance after 20 years.23 hrs agoCulture
+2025-05-10 00:36:51,561 - INFO -       Successfully scraped article
+2025-05-10 00:36:51,561 - INFO -       Scraping article: Bargain Hunt expert admits terror offence after sales to 'Hezbollah financier'Oghenochuko Ojiri, who has been an expert on the BBC programme, has admitted eight offences.8 hrs agoUK
+2025-05-10 00:36:53,448 - INFO -       Successfully scraped article
+2025-05-10 00:36:53,448 - INFO -       Scraping article: Free beachfront concert by Dizzee Rascal cancelledA councillor claims the impromptu gig was "an irresponsible ticket stunt".7 hrs agoKent
+2025-05-10 00:36:55,246 - INFO -       Successfully scraped article
+2025-05-10 00:36:55,246 - INFO -       Scraping article: UK tour of Jack Thorne's vampire play cancelledThe production, written by the co-creator of The Adolescence, is based on the Swedish book and film.9 hrs agoNorthamptonshire
+2025-05-10 00:36:57,903 - INFO -       Successfully scraped article
+2025-05-10 00:36:57,903 - INFO -   Scraping category: Sports
+2025-05-10 00:36:57,903 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-10 00:36:58,890 - INFO - Found 0 unique article links
+2025-05-10 00:36:58,890 - INFO - Scraping from iHarare
+2025-05-10 00:36:58,891 - INFO -   Scraping category: Business
+2025-05-10 00:36:58,891 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-10 00:36:59,771 - INFO - Selector 'article' matched 26 elements
+2025-05-10 00:36:59,787 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-10 00:36:59,801 - INFO - Found 23 unique article links
+2025-05-10 00:36:59,801 - INFO -       Scraping article: Business
+2025-05-10 00:37:02,892 - INFO -       Successfully scraped article
+2025-05-10 00:37:02,892 - INFO -       Scraping article: Ministry Of Transport Apologises For False Claims On Victoria Falls Road after Being Accused Of Corruption
+2025-05-10 00:37:06,052 - INFO -       Successfully scraped article
+2025-05-10 00:37:06,052 - INFO -       Scraping article: RBZ Hands Out US$10 Million to 135 Companies Through Targeted Finance Facility
+2025-05-10 00:37:09,633 - INFO -       Successfully scraped article
+2025-05-10 00:37:09,633 - INFO -       Scraping article: Why Zimbabwe Seized Land From Black Farmers During Land Reform Program Under Mugabe: Presidential Spokesperson Explains
+2025-05-10 00:37:11,694 - INFO -       Successfully scraped article
+2025-05-10 00:37:11,694 - INFO -       Scraping article: Zimbabwe Returns Seized Farms To Black Farmers Who Lost Land Under Mugabe
+2025-05-10 00:37:14,834 - INFO -       Successfully scraped article
+2025-05-10 00:37:14,834 - INFO -   Scraping category: Politics
+2025-05-10 00:37:14,834 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-10 00:37:15,572 - INFO - Selector 'article' matched 26 elements
+2025-05-10 00:37:15,588 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-10 00:37:15,600 - INFO - Found 22 unique article links
+2025-05-10 00:37:15,600 - INFO -       Scraping article: Zimbabwe Spends US$1.53 Billion in 4 Months, Citizens Demand Answers
+2025-05-10 00:37:18,453 - INFO -       Successfully scraped article
+2025-05-10 00:37:18,453 - INFO -       Scraping article: Pics: Zim Deputy Minister Sheillah Chikomo Gets Engaged in Style – Helicopters, Yachts and Dubai Dreams
+2025-05-10 00:37:20,394 - INFO -       Successfully scraped article
+2025-05-10 00:37:20,394 - INFO -       Scraping article: ICT Minister Tatenda Mavetera Responds to Viral Bum-Shaking Dance Video
+2025-05-10 00:37:23,547 - INFO -       Successfully scraped article
+2025-05-10 00:37:23,547 - INFO -       Scraping article: Ziyambi Ziyambi Speaks On Leaked Term Extension Memo, Hints Real Amendments Are Coming
+2025-05-10 00:37:25,330 - INFO -       Successfully scraped article
+2025-05-10 00:37:25,330 - INFO -       Scraping article: Paul Mashatile Explains Delay in Beefing Up Security After Assassination Attempt
+2025-05-10 00:37:27,972 - INFO -       Successfully scraped article
+2025-05-10 00:37:27,972 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-10 00:37:27,972 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-10 00:37:28,545 - INFO - Selector 'article' matched 26 elements
+2025-05-10 00:37:28,560 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-10 00:37:28,573 - INFO - Found 22 unique article links
+2025-05-10 00:37:28,573 - INFO -       Scraping article: Happy after divorce: Isibaya star Asavela Mqokiyana’s TikTok dance goes viral (video)
+2025-05-10 00:37:32,172 - INFO -       Successfully scraped article
+2025-05-10 00:37:32,172 - INFO -       Scraping article: “Makadiniko Vavengi Vangu”: Jah Prayzah Claps Back at Haters with Classy Response in New Track ‘Sori’
+2025-05-10 00:37:34,282 - INFO -       Successfully scraped article
+2025-05-10 00:37:34,282 - INFO -       Scraping article: Springboks Viking: RG Synman’s Leinster Awards outfit trends (pictures)
+2025-05-10 00:37:38,009 - INFO -       Successfully scraped article
+2025-05-10 00:37:38,009 - INFO -       Scraping article: ‘It lives in his dog’: Springboks coach Rassie Erasmus’ wild nickname goes viral (video)
+2025-05-10 00:37:40,602 - INFO -       Successfully scraped article
+2025-05-10 00:37:40,602 - INFO -       Scraping article: She’s wealthy: Gogo Maweni shows off her cows (video)
+2025-05-10 00:37:43,364 - INFO -       Successfully scraped article
+2025-05-10 00:37:43,364 - INFO -   Scraping category: Sports
+2025-05-10 00:37:43,364 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-10 00:37:43,923 - WARNING - Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-10 00:37:43,923 - INFO - Scraping from The Herald
+2025-05-10 00:37:43,924 - INFO -   Scraping category: Business
+2025-05-10 00:37:43,924 - INFO -     Accessing URL: https://www.herald.co.zw/category/business/
+2025-05-10 00:37:44,308 - WARNING - Failed to access https://www.herald.co.zw/category/business/, status code: 403
+2025-05-10 00:37:44,308 - INFO -   Scraping category: Politics
+2025-05-10 00:37:44,308 - INFO -     Accessing URL: https://www.herald.co.zw/category/politics/
+2025-05-10 00:37:44,585 - WARNING - Failed to access https://www.herald.co.zw/category/politics/, status code: 403
+2025-05-10 00:37:44,585 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-10 00:37:44,585 - INFO -     Accessing URL: https://www.herald.co.zw/category/entertainment/
+2025-05-10 00:37:44,835 - WARNING - Failed to access https://www.herald.co.zw/category/entertainment/, status code: 403
+2025-05-10 00:37:44,835 - INFO -   Scraping category: Sports
+2025-05-10 00:37:44,836 - INFO -     Accessing URL: https://www.herald.co.zw/category/sports/
+2025-05-10 00:37:45,103 - WARNING - Failed to access https://www.herald.co.zw/category/sports/, status code: 403
+2025-05-10 00:37:45,117 - INFO - Saved 70 articles to news_data/all_articles.csv
+2025-05-10 00:37:45,117 - INFO - Scraping completed

@@ -1,0 +1,7 @@
+2025-05-10 00:23:26,625 - INFO - Directory already exists: templates
+2025-05-10 00:23:26,625 - INFO - Updating template: templates/index.html
+2025-05-10 00:23:26,625 - INFO - Template already up to date: templates/cluster.html
+2025-05-10 00:23:26,625 - INFO - Directory already exists: static
+2025-05-10 00:23:26,847 - INFO - Created placeholder clusters image
+2025-05-10 00:23:26,847 - INFO - Directory already exists: news_data
+2025-05-10 00:23:26,847 - INFO - Template setup complete.
