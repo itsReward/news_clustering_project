@@ -16,7 +16,7 @@ This guide will help understand how to use the News Article Clustering Applicati
 
 ## Overview
 
-The Zimbabwe News Article Clustering Application is a comprehensive system that:
+The News Article Clustering Application is a comprehensive system that:
 
 1. Scrapes news articles from various online newspapers
 2. Categorizes these articles into different topics (Business, Politics, Arts/Culture/Celebrities, Sports)
