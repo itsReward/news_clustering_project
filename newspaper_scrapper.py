@@ -114,49 +114,49 @@ class NewspaperScraper:
                 "title_selector": "h3.gs-c-promo-heading__title, h3.media__title, a.media__link, span.faux-block-link__overlay-link",
                 "content_selector": "div.story-body__inner p, article p, div[data-component='text-block']"
             },
-            # iHarare - Zimbabwean news source
-            "iharare": {
-                "name": "iHarare",
-                "base_url": "https://iharare.com",
+            #cbs
+            "cbs": {
+                "name": "CBS",
+                "base_url": "https://www.cbsnews.com/",
                 "categories": {
                     "Business": [
-                        "https://iharare.com/category/business/"
+                        "https://www.cbsnews.com/moneywatch/"
                     ],
                     "Politics": [
-                        "https://iharare.com/category/politics/"
+                        "https://www.cbsnews.com/politics/"
                     ],
                     "Arts/Culture/Celebrities": [
-                        "https://iharare.com/category/entertainment/"
+                        "https://www.cbsnews.com/entertainment/"
                     ],
                     "Sports": [
-                        "https://iharare.com/category/sports/"
+                        "https://www.cbssports.com/"
                     ]
                 },
-                "article_selector": "article, div.jeg_posts, div.jeg_post, div.post-wrap",
-                "title_selector": "h3.jeg_post_title a, h2.entry-title a, h3.entry-title a",
-                "content_selector": "div.entry-content p, div.content-inner p, div.jeg_share_container"
+                "article_selector": "article, .content-article, .article-content, .article-wrapper",
+                "title_selector": "h1.content__title, h1.article-headline, h1.headline__title",
+                "content_selector": ".content__body p, .article-content p, .article-body p, .article-wrapper p"
             },
-            # Added The Herald - Zimbabwe's national newspaper
-            "herald": {
-                "name": "The Herald",
-                "base_url": "https://www.herald.co.zw/",
+            # The Telegraph
+            "theTelegraph": {
+                "name": "The Telegraph",
+                "base_url": "https://www.telegraph.co.uk/",
                 "categories": {
                     "Business": [
-                        "https://www.herald.co.zw/category/business/"
+                        "https://www.telegraph.co.uk/business/"
                     ],
                     "Politics": [
-                        "https://www.herald.co.zw/category/politics/"
+                        "https://www.telegraph.co.uk/news/"
                     ],
                     "Arts/Culture/Celebrities": [
-                        "https://www.herald.co.zw/category/entertainment/"
+                        "https://www.telegraph.co.uk/lifestyle/"
                     ],
                     "Sports": [
-                        "https://www.herald.co.zw/category/sports/"
+                        "https://www.telegraph.co.uk/sport/"
                     ]
                 },
-                "article_selector": "article, div.post, div.item, div.td_module_wrap",
-                "title_selector": "h3 a, h2.entry-title a, div.entry-title a, h3.entry-title a",
-                "content_selector": "div.entry-content p, div.td-post-content p, article p"
+                "article_selector": "article, div.article-body, div.article__body, main.article",
+                "title_selector": "h1.headline__title, h1.article-headline, h1.e-headline",
+                "content_selector": "div.article__content p, div.article__body p, div.article-body p, div.article-content p"
             }
         }
 
@@ -377,8 +377,8 @@ class NewspaperScraper:
 
 def main():
     """Main function to run the web scraper"""
-    logger.info("Zimbabwe Newspaper Web Scraper")
-    logger.info("=============================")
+    logger.info("Newspaper Web Scraper")
+    logger.info("*******************************")
 
     # Run web scraping
     scraper = NewspaperScraper()

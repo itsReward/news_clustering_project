@@ -57,7 +57,7 @@ def setup_templates():
     index_html = """<!DOCTYPE html>
 <html>
 <head>
-    <title>Zimbabwe News Article Clusters</title>
+    <title>News Article Clusters</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <style>
         .cluster-card {
@@ -141,7 +141,7 @@ def setup_templates():
     cluster_html = """<!DOCTYPE html>
 <html>
 <head>
-    <title>Cluster - Zimbabwe News Articles</title>
+    <title>Cluster - News Articles</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>

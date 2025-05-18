@@ -1219,3 +1219,604 @@ Step 2: Clustering articles
 2025-05-10 00:37:45,103 - WARNING - Failed to access https://www.herald.co.zw/category/sports/, status code: 403
 2025-05-10 00:37:45,117 - INFO - Saved 70 articles to news_data/all_articles.csv
 2025-05-10 00:37:45,117 - INFO - Scraping completed
+2025-05-18 11:13:07,506 - INFO - Zimbabwe Newspaper Web Scraper
+2025-05-18 11:13:07,507 - INFO - =============================
+2025-05-18 11:13:07,507 - INFO - Starting web scraping process
+2025-05-18 11:13:07,507 - INFO - Scraping from Independent
+2025-05-18 11:13:07,508 - INFO -   Scraping category: Business
+2025-05-18 11:13:07,508 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-18 11:13:08,445 - INFO - Selector 'div.article' matched 94 elements
+2025-05-18 11:13:08,700 - INFO - Selector 'div.content' matched 109 elements
+2025-05-18 11:13:08,901 - INFO - Found 99 unique article links
+2025-05-18 11:13:08,904 - INFO -       Scraping article: BlackRock’s billions show it’s not all gloom for UK business
+2025-05-18 11:13:11,791 - INFO -       Successfully scraped article
+2025-05-18 11:13:11,791 - INFO -       Scraping article: Why Tesla’s fall forced Musk to step back from DOGE
+2025-05-18 11:13:15,040 - INFO -       Successfully scraped article
+2025-05-18 11:13:15,040 - INFO -       Scraping article: Business
+2025-05-18 11:13:18,474 - INFO -       Successfully scraped article
+2025-05-18 11:13:18,474 - INFO -       Scraping article: Co-op prioritises corporate greed over animal welfare, says Chris Packham
+2025-05-18 11:13:20,684 - INFO -       Successfully scraped article
+2025-05-18 11:13:20,684 - INFO -       Scraping article: Tax avoidance is on the rise – and the rich are leading the way
+2025-05-18 11:13:24,108 - INFO -       Successfully scraped article
+2025-05-18 11:13:24,108 - INFO -   Scraping category: Politics
+2025-05-18 11:13:24,108 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-18 11:13:25,273 - INFO - Selector 'div.article' matched 106 elements
+2025-05-18 11:13:25,662 - INFO - Selector 'div.content' matched 120 elements
+2025-05-18 11:13:25,994 - INFO - Found 105 unique article links
+2025-05-18 11:13:25,996 - INFO -       Scraping article: The £25bn-a-year prize at stake in Starmer’s Brexit reset talks
+2025-05-18 11:13:27,718 - INFO -       Successfully scraped article
+2025-05-18 11:13:27,719 - INFO -       Scraping article: UK Politics
+2025-05-18 11:13:30,008 - INFO -       Successfully scraped article
+2025-05-18 11:13:30,008 - INFO -       Scraping article: Talks over winter fuel U-turn ‘intensify’ as Labour bids to woo voters
+2025-05-18 11:13:33,550 - INFO -       Successfully scraped article
+2025-05-18 11:13:33,550 - INFO -       Scraping article: Hundreds of MPs and peers call for Starmer to ban Iranian army
+2025-05-18 11:13:36,521 - INFO -       Successfully scraped article
+2025-05-18 11:13:36,521 - INFO -       Scraping article: Starmer accused of ignoring foreign press at post-Brexit reset summit
+2025-05-18 11:13:40,461 - INFO -       Successfully scraped article
+2025-05-18 11:13:40,461 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:13:40,462 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-18 11:13:41,504 - INFO - Selector 'div.article' matched 86 elements
+2025-05-18 11:13:41,889 - INFO - Selector 'div.content' matched 96 elements
+2025-05-18 11:13:42,176 - INFO - Found 81 unique article links
+2025-05-18 11:13:42,178 - INFO -       Scraping article: Simon Armitage: ‘It’s not my job to bring the nation together’
+2025-05-18 11:13:45,437 - INFO -       Successfully scraped article
+2025-05-18 11:13:45,438 - INFO -       Scraping article: All eight Mission: Impossible movies – ranked from worst to best
+2025-05-18 11:13:49,042 - INFO -       Successfully scraped article
+2025-05-18 11:13:49,043 - INFO -       Scraping article: Netflix’s Forever radically reimagines Judy Blume – but for the better
+2025-05-18 11:13:51,552 - INFO -       Successfully scraped article
+2025-05-18 11:13:51,554 - INFO -       Scraping article: How Twenty One Pilots became the streaming era’s biggest band
+2025-05-18 11:13:54,023 - INFO -       Successfully scraped article
+2025-05-18 11:13:54,024 - INFO -       Scraping article: At Eurovision, politics once more intrudes upon this former pop lark
+2025-05-18 11:13:56,593 - INFO -       Successfully scraped article
+2025-05-18 11:13:56,598 - INFO -   Scraping category: Sports
+2025-05-18 11:13:56,599 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-18 11:13:57,539 - INFO - Selector 'div.article' matched 85 elements
+2025-05-18 11:13:57,830 - INFO - Selector 'div.content' matched 111 elements
+2025-05-18 11:13:58,088 - INFO - Found 108 unique article links
+2025-05-18 11:13:58,090 - INFO -       Scraping article: Giro d’Italia Stage 9 preview: Map, standings and route to Siena
+2025-05-18 11:14:00,436 - INFO -       Successfully scraped article
+2025-05-18 11:14:00,436 - INFO -       Scraping article: Cycling
+2025-05-18 11:14:03,459 - INFO -       Successfully scraped article
+2025-05-18 11:14:03,459 - INFO -       Scraping article: Fisher suffers nightmare KO by Allen as score is settled in rematch
+2025-05-18 11:14:12,797 - INFO -       Successfully scraped article
+2025-05-18 11:14:12,798 - INFO -       Scraping article: Boxing
+2025-05-18 11:14:16,937 - INFO -       Successfully scraped article
+2025-05-18 11:14:16,937 - INFO -       Scraping article: Home hero Paolini makes Italian Open history with victory over Gauff
+2025-05-18 11:14:21,351 - INFO -       Successfully scraped article
+2025-05-18 11:14:21,351 - INFO - Scraping from CNN
+2025-05-18 11:14:21,352 - INFO -   Scraping category: Business
+2025-05-18 11:14:21,352 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-18 11:14:24,448 - INFO - Selector 'div.card' matched 66 elements
+2025-05-18 11:14:24,901 - INFO - Selector 'div.container__item' matched 66 elements
+2025-05-18 11:14:25,309 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 38 elements
+2025-05-18 11:14:25,500 - INFO - Found 60 unique article links
+2025-05-18 11:14:25,504 - INFO -       Scraping article: Trump tells Walmart to ‘eat the tariffs’ as retailer expects prices to increase
+2025-05-18 11:14:31,929 - INFO -       Successfully scraped article
+2025-05-18 11:14:31,930 - INFO -       Scraping article: Edward Berthelot/Getty Images
+2025-05-18 11:14:37,219 - INFO -       Successfully scraped article
+2025-05-18 11:14:37,219 - INFO -       Scraping article: J. David Ake/Getty Images
+2025-05-18 11:14:40,395 - INFO -       Successfully scraped article
+2025-05-18 11:14:40,395 - INFO -       Scraping article: Jakub Porzycki/NurPhoto/Shutterstock
+2025-05-18 11:14:43,908 - INFO -       Successfully scraped article
+2025-05-18 11:14:43,908 - INFO -       Scraping article: Damir Sagolj/Reuters
+2025-05-18 11:14:47,406 - INFO -       Successfully scraped article
+2025-05-18 11:14:47,407 - INFO -   Scraping category: Politics
+2025-05-18 11:14:47,407 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-18 11:14:49,753 - INFO - Selector 'div.card' matched 54 elements
+2025-05-18 11:14:50,128 - INFO - Selector 'div.container__item' matched 54 elements
+2025-05-18 11:14:50,453 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 19 elements
+2025-05-18 11:14:50,549 - INFO - Found 54 unique article links
+2025-05-18 11:14:50,551 - INFO -       Scraping article: Getty Images, Reuters
+2025-05-18 11:14:53,218 - INFO -       Successfully scraped article
+2025-05-18 11:14:53,219 - INFO -       Scraping article: Former FBI Director James Comey interviewed by the US Secret Service
+2025-05-18 11:14:56,456 - INFO -       Successfully scraped article
+2025-05-18 11:14:56,457 - INFO -       Scraping article: Nonprofit leaders brace for possible targeting by the Trump administration after tax measure advances in Congress
+2025-05-18 11:14:58,782 - INFO -       Successfully scraped article
+2025-05-18 11:14:58,783 - INFO -       Scraping article: Device that makes semi-automatic rifles fire quicker allowed by Trump administration
+2025-05-18 11:15:01,325 - INFO -       Successfully scraped article
+2025-05-18 11:15:01,327 - INFO -       Scraping article: Social Security drops controversial anti-fraud review amid growing claims backlog
+2025-05-18 11:15:04,204 - INFO -       Successfully scraped article
+2025-05-18 11:15:04,204 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:15:04,205 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-18 11:15:06,244 - INFO - Selector 'div.card' matched 31 elements
+2025-05-18 11:15:06,453 - INFO - Selector 'div.container__item' matched 31 elements
+2025-05-18 11:15:06,630 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 23 elements
+2025-05-18 11:15:06,720 - INFO - Found 31 unique article links
+2025-05-18 11:15:06,733 - INFO -       Scraping article: A24
+2025-05-18 11:15:09,898 - INFO -       Successfully scraped article
+2025-05-18 11:15:09,898 - INFO -       Scraping article: Eli Adé/Warner Bros.
+2025-05-18 11:15:12,969 - INFO -       Successfully scraped article
+2025-05-18 11:15:12,970 - INFO -       Scraping article: Mike Lawrie/Getty Images
+2025-05-18 11:15:16,912 - INFO -       Successfully scraped article
+2025-05-18 11:15:16,913 - INFO -       Scraping article: Jamie McCarthy/Getty Images
+2025-05-18 11:15:19,537 - INFO -       Successfully scraped article
+2025-05-18 11:15:19,538 - INFO -       Scraping article: Matt Baron/BEI/Shutterstock
+2025-05-18 11:15:24,248 - INFO -       Successfully scraped article
+2025-05-18 11:15:24,248 - INFO -   Scraping category: Sports
+2025-05-18 11:15:24,248 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-18 11:15:27,850 - INFO - Selector 'div.card' matched 65 elements
+2025-05-18 11:15:28,410 - INFO - Selector 'div.container__item' matched 65 elements
+2025-05-18 11:15:28,907 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 16 elements
+2025-05-18 11:15:29,003 - INFO - Found 65 unique article links
+2025-05-18 11:15:29,005 - INFO -       Scraping article: Justin Setterfield/The FA/Getty Images
+2025-05-18 11:15:32,825 - INFO -       Successfully scraped article
+2025-05-18 11:15:32,825 - INFO -       Scraping article: Alex Slitz/Getty Images
+2025-05-18 11:15:36,496 - INFO -       Successfully scraped article
+2025-05-18 11:15:36,499 - INFO -       Scraping article: Kevin Jairaj/Imagn Images via Reuters
+2025-05-18 11:15:39,943 - INFO -       Successfully scraped article
+2025-05-18 11:15:39,944 - INFO -       Scraping article: Seth Wenig/AP
+2025-05-18 11:15:42,142 - INFO -       Successfully scraped article
+2025-05-18 11:15:42,143 - INFO -       Scraping article: Alex Slitz/Getty Images
+2025-05-18 11:15:45,163 - INFO -       Successfully scraped article
+2025-05-18 11:15:45,163 - INFO - Scraping from BBC
+2025-05-18 11:15:45,164 - INFO -   Scraping category: Business
+2025-05-18 11:15:45,164 - INFO -     Accessing URL: https://www.bbc.com/news/business
+2025-05-18 11:15:50,933 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:15:51,074 - INFO - Found 26 unique article links
+2025-05-18 11:15:51,075 - INFO -       Scraping article: It's one of the most rowdy US sporting events. Here's what Preakness says about the economyThe Maryland tradition attracts a mix of socioeconomic classes. But this year, the tradition has been thrown into question.8 hrs agoUS & Canada
+2025-05-18 11:15:53,333 - INFO -       Successfully scraped article
+2025-05-18 11:15:53,334 - INFO -       Scraping article: US loses last perfect credit rating amid rising debtMoody's said successive US administrations had failed to reverse ballooning deficits and interest costs.1 day agoUS & Canada
+2025-05-18 11:15:55,637 - INFO -       Successfully scraped article
+2025-05-18 11:15:55,637 - INFO -       Scraping article: Doom: One of gaming's oldest series reckons with the challenges of 2025Doom is one of the most well-known series in gaming but it still has to work to find new players.1 day ago
+2025-05-18 11:15:59,243 - INFO -       Successfully scraped article
+2025-05-18 11:15:59,244 - INFO -       Scraping article: US proposes dropping Boeing criminal charge Families criticised the move, which would avoid a trial that is due to begin in June.2 days agoBusiness
+2025-05-18 11:16:01,793 - INFO -       Successfully scraped article
+2025-05-18 11:16:01,794 - INFO -       Scraping article: Why youth mobility and fishing are key issues ahead of UK-EU summitYouth mobility and fishing rights are key negotiating points between the UK and the EU as PM Keir Starmer attempts a post-Brexit "reset".1 day ago
+2025-05-18 11:16:05,313 - INFO -       Successfully scraped article
+2025-05-18 11:16:05,314 - INFO -   Scraping category: Politics
+2025-05-18 11:16:05,314 - INFO -     Accessing URL: https://www.bbc.com/news/politics
+2025-05-18 11:16:06,233 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:16:06,299 - INFO - Found 22 unique article links
+2025-05-18 11:16:06,301 - INFO -       Scraping article: UK Politics
+2025-05-18 11:16:09,204 - INFO -       Successfully scraped article
+2025-05-18 11:16:09,204 - INFO -       Scraping article: England
+2025-05-18 11:16:13,044 - INFO -       Successfully scraped article
+2025-05-18 11:16:13,045 - INFO -       Scraping article: N. Ireland
+2025-05-18 11:16:16,186 - INFO -       Successfully scraped article
+2025-05-18 11:16:16,186 - INFO -       Scraping article: Scotland
+2025-05-18 11:16:20,019 - INFO -       Successfully scraped article
+2025-05-18 11:16:20,019 - INFO -       Scraping article: Wales
+2025-05-18 11:16:24,726 - INFO -       Successfully scraped article
+2025-05-18 11:16:24,726 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:16:24,726 - INFO -     Accessing URL: https://www.bbc.com/news/entertainment_and_arts
+2025-05-18 11:16:26,198 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:16:26,293 - INFO - Found 28 unique article links
+2025-05-18 11:16:26,294 - INFO -       Scraping article: Eurovision 2025: Austria wins with last-minute vote, as the UK comes 19thAustrian counter-tenor JJ wins with Wasted Love, but the UK gets zero points from the public.9 hrs agoCulture
+2025-05-18 11:16:29,147 - INFO -       Successfully scraped article
+2025-05-18 11:16:29,147 - INFO -       Scraping article: Elton brands government 'losers' over AI copyright plansThe musician accuses the government of robbing young artists over its copyright law plans.3 hrs ago
+2025-05-18 11:16:32,408 - INFO -       Successfully scraped article
+2025-05-18 11:16:32,409 - INFO -       Scraping article: Doom: One of gaming's oldest series reckons with the challenges of 2025Doom is one of the most well-known series in gaming but it still has to work to find new players.1 day ago
+2025-05-18 11:16:35,717 - INFO -       Successfully scraped article
+2025-05-18 11:16:35,717 - INFO -       Scraping article: Mexico accuses MrBeast of exploiting Mayan pyramidsAuthorities say they never allowed Jimmy Donaldson to film at pyramid heritage sites for profit.1 day agoLatin America
+2025-05-18 11:16:39,502 - INFO -       Successfully scraped article
+2025-05-18 11:16:39,503 - INFO -       Scraping article: Rushdie attacker sentenced to 25 years in prisonSir Salman was on a New York lecture stage, when he was stabbed multiple times in the face and neck leaving him partially blinded.2 days agoUS & Canada
+2025-05-18 11:16:43,336 - INFO -       Successfully scraped article
+2025-05-18 11:16:43,336 - INFO -   Scraping category: Sports
+2025-05-18 11:16:43,336 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-18 11:16:45,322 - INFO - Found 0 unique article links
+2025-05-18 11:16:45,324 - INFO - Scraping from iHarare
+2025-05-18 11:16:45,325 - INFO -   Scraping category: Business
+2025-05-18 11:16:45,325 - INFO -     Accessing URL: https://iharare.com/category/business/
+2025-05-18 11:16:47,153 - INFO - Selector 'article' matched 26 elements
+2025-05-18 11:16:47,268 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-18 11:16:47,358 - INFO - Found 23 unique article links
+2025-05-18 11:16:47,359 - INFO -       Scraping article: Business
+2025-05-18 11:16:50,588 - INFO -       Successfully scraped article
+2025-05-18 11:16:50,588 - INFO -       Scraping article: Govt Flags Hefty Monthly Salary, Bonuses and Lavish Perks for NSSA Boss
+2025-05-18 11:16:54,104 - INFO -       Successfully scraped article
+2025-05-18 11:16:54,104 - INFO -       Scraping article: 5 Ways Travel Brands Can Leverage Digital Marketing to Boost Sales
+2025-05-18 11:16:56,054 - INFO -       Successfully scraped article
+2025-05-18 11:16:56,055 - INFO -       Scraping article: Crude Moves: Navigating the Global Oil Trading Landscape
+2025-05-18 11:16:59,321 - INFO -       Successfully scraped article
+2025-05-18 11:16:59,321 - INFO -       Scraping article: Spotting Undervaluation: When Market Fear Creates Buying Opportunities
+2025-05-18 11:17:02,545 - INFO -       Successfully scraped article
+2025-05-18 11:17:02,545 - INFO -   Scraping category: Politics
+2025-05-18 11:17:02,546 - INFO -     Accessing URL: https://iharare.com/category/politics/
+2025-05-18 11:17:03,423 - INFO - Selector 'article' matched 26 elements
+2025-05-18 11:17:03,488 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-18 11:17:03,544 - INFO - Found 22 unique article links
+2025-05-18 11:17:03,545 - INFO -       Scraping article: Outrage as Zimbabwe’s Deputy Health Minister Claims “Varwere Chaivo Are Not Complaining About Our Services”
+2025-05-18 11:17:07,068 - INFO -       Successfully scraped article
+2025-05-18 11:17:07,069 - INFO -       Scraping article: Wicknell Chivayo Faces Parliament Probe Over US$100 Million ZEC Tender Scandal
+2025-05-18 11:17:10,376 - INFO -       Successfully scraped article
+2025-05-18 11:17:10,376 - INFO -       Scraping article: “We Can Did It Too”: Zimbabweans React After Govt Official Suggests Copying Tanzania and Banning US Dollar
+2025-05-18 11:17:14,189 - INFO -       Successfully scraped article
+2025-05-18 11:17:14,189 - INFO -       Scraping article: Chatunga Mugabe Discusses His Relationship With Collins and Emmerson Mnangagwa Jr (Video)
+2025-05-18 11:17:17,496 - INFO -       Successfully scraped article
+2025-05-18 11:17:17,496 - INFO -       Scraping article: Zimbabwe Spends US$1.53 Billion in 4 Months, Citizens Demand Answers
+2025-05-18 11:17:20,376 - INFO -       Successfully scraped article
+2025-05-18 11:17:20,377 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:17:20,377 - INFO -     Accessing URL: https://iharare.com/category/entertainment/
+2025-05-18 11:17:21,209 - INFO - Selector 'article' matched 26 elements
+2025-05-18 11:17:21,274 - INFO - Selector 'div.jeg_posts' matched 2 elements
+2025-05-18 11:17:21,332 - INFO - Found 22 unique article links
+2025-05-18 11:17:21,333 - INFO -       Scraping article: She’s grown: Andile Mpisane’s daughter celebrates her birthday (pictures)
+2025-05-18 11:17:23,556 - INFO -       Successfully scraped article
+2025-05-18 11:17:23,556 - INFO -       Scraping article: Vamos: Springboks captain Siya Kolisi’s Spanish accent breaks the internet (video)
+2025-05-18 11:17:27,389 - INFO -       Successfully scraped article
+2025-05-18 11:17:27,389 - INFO -       Scraping article: He was funny: Tendai Mtawarira’s video with the late Springboks veteran goes viral
+2025-05-18 11:17:29,696 - INFO -       Successfully scraped article
+2025-05-18 11:17:29,696 - INFO -       Scraping article: No love lost: Springbok WAG visits divorced Rachel Kolisi (pictures)
+2025-05-18 11:17:32,030 - INFO -       Successfully scraped article
+2025-05-18 11:17:32,031 - INFO -       Scraping article: Miss Universe Zimbabwe 2025 Prizes Revealed
+2025-05-18 11:17:36,125 - INFO -       Successfully scraped article
+2025-05-18 11:17:36,125 - INFO -   Scraping category: Sports
+2025-05-18 11:17:36,126 - INFO -     Accessing URL: https://iharare.com/category/sports/
+2025-05-18 11:17:36,797 - WARNING - Failed to access https://iharare.com/category/sports/, status code: 404
+2025-05-18 11:17:36,798 - INFO - Scraping from The Telegraph
+2025-05-18 11:17:36,799 - INFO -   Scraping category: Business
+2025-05-18 11:17:36,800 - INFO -     Accessing URL: https://www.telegraph.co.uk/business/
+2025-05-18 11:17:38,333 - INFO - Selector 'article' matched 45 elements
+2025-05-18 11:17:38,515 - INFO - Found 35 unique article links
+2025-05-18 11:17:38,516 - INFO -       Scraping article: Reeves is fiddling with Isas while Rome burns
+2025-05-18 11:17:43,139 - INFO -       Successfully scraped article
+2025-05-18 11:17:43,140 - INFO -       Scraping article: Matthew Lynn
+Now even Greenpeace is worried about North Sea oil jobs
+2025-05-18 11:17:46,221 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/now-even-greenpeace-is-worried-about-north-sea-oil-jobs/, status code: 403
+2025-05-18 11:17:46,222 - WARNING -       Article content too short, skipping
+2025-05-18 11:17:46,222 - INFO -       Scraping article: The critical weaknesses in Starmer’s EU defence pact
+2025-05-18 11:17:48,589 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/the-critical-weaknesses-in-starmers-eu-defence-pact/, status code: 403
+2025-05-18 11:17:48,590 - WARNING -       Article content too short, skipping
+2025-05-18 11:17:48,590 - INFO -       Scraping article: Andy Burnham closes in on millions from Reeves to tackle worklessness
+2025-05-18 11:17:50,839 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/andy-burnham-closes-millions-reeves-tackle-worklessness/, status code: 403
+2025-05-18 11:17:50,840 - WARNING -       Article content too short, skipping
+2025-05-18 11:17:50,840 - INFO -       Scraping article: Hundreds of Poundland stores to close under rescue deal
+2025-05-18 11:17:54,262 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/poundland-stores-risk-closure-thousands-of-jobs-threatened/, status code: 403
+2025-05-18 11:17:54,263 - WARNING -       Article content too short, skipping
+2025-05-18 11:17:54,263 - INFO -   Scraping category: Politics
+2025-05-18 11:17:54,263 - INFO -     Accessing URL: https://www.telegraph.co.uk/news/
+2025-05-18 11:17:54,467 - WARNING - Failed to access https://www.telegraph.co.uk/news/, status code: 403
+2025-05-18 11:17:54,467 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:17:54,467 - INFO -     Accessing URL: https://www.telegraph.co.uk/lifestyle/
+2025-05-18 11:17:54,707 - WARNING - Failed to access https://www.telegraph.co.uk/lifestyle/, status code: 403
+2025-05-18 11:17:54,708 - INFO -   Scraping category: Sports
+2025-05-18 11:17:54,709 - INFO -     Accessing URL: https://www.telegraph.co.uk/sport/
+2025-05-18 11:17:54,915 - WARNING - Failed to access https://www.telegraph.co.uk/sport/, status code: 403
+2025-05-18 11:17:55,001 - INFO - Saved 71 articles to news_data/all_articles.csv
+2025-05-18 11:17:55,002 - INFO - Scraping completed
+2025-05-18 11:33:01,077 - INFO - Newspaper Web Scraper
+2025-05-18 11:33:01,077 - INFO - *******************************
+2025-05-18 11:33:01,078 - INFO - Starting web scraping process
+2025-05-18 11:33:01,078 - INFO - Scraping from Independent
+2025-05-18 11:33:01,079 - INFO -   Scraping category: Business
+2025-05-18 11:33:01,079 - INFO -     Accessing URL: https://www.independent.co.uk/news/business
+2025-05-18 11:33:02,922 - INFO - Selector 'div.article' matched 94 elements
+2025-05-18 11:33:03,126 - INFO - Selector 'div.content' matched 109 elements
+2025-05-18 11:33:03,294 - INFO - Found 99 unique article links
+2025-05-18 11:33:03,295 - INFO -       Scraping article: BlackRock’s billions show it’s not all gloom for UK business
+2025-05-18 11:33:06,198 - INFO -       Successfully scraped article
+2025-05-18 11:33:06,199 - INFO -       Scraping article: Why Tesla’s fall forced Musk to step back from DOGE
+2025-05-18 11:33:10,406 - INFO -       Successfully scraped article
+2025-05-18 11:33:10,407 - INFO -       Scraping article: Business
+2025-05-18 11:33:14,352 - INFO -       Successfully scraped article
+2025-05-18 11:33:14,353 - INFO -       Scraping article: Co-op prioritises corporate greed over animal welfare, says Chris Packham
+2025-05-18 11:33:18,568 - INFO -       Successfully scraped article
+2025-05-18 11:33:18,568 - INFO -       Scraping article: Tax avoidance is on the rise – and the rich are leading the way
+2025-05-18 11:33:21,621 - INFO -       Successfully scraped article
+2025-05-18 11:33:21,622 - INFO -   Scraping category: Politics
+2025-05-18 11:33:21,622 - INFO -     Accessing URL: https://www.independent.co.uk/news/uk/politics
+2025-05-18 11:33:23,431 - INFO - Selector 'div.article' matched 106 elements
+2025-05-18 11:33:23,696 - INFO - Selector 'div.content' matched 120 elements
+2025-05-18 11:33:23,897 - INFO - Found 105 unique article links
+2025-05-18 11:33:23,899 - INFO -       Scraping article: The £25bn-a-year prize at stake in Starmer’s Brexit reset talks
+2025-05-18 11:33:27,516 - INFO -       Successfully scraped article
+2025-05-18 11:33:27,516 - INFO -       Scraping article: UK Politics
+2025-05-18 11:33:31,999 - INFO -       Successfully scraped article
+2025-05-18 11:33:32,000 - INFO -       Scraping article: Talks over winter fuel U-turn ‘intensify’ as Labour bids to woo voters
+2025-05-18 11:33:35,971 - INFO -       Successfully scraped article
+2025-05-18 11:33:35,971 - INFO -       Scraping article: Hundreds of MPs and peers call for Starmer to ban Iranian army
+2025-05-18 11:33:39,051 - INFO -       Successfully scraped article
+2025-05-18 11:33:39,051 - INFO -       Scraping article: Starmer accused of ignoring foreign press at post-Brexit reset summit
+2025-05-18 11:33:43,461 - INFO -       Successfully scraped article
+2025-05-18 11:33:43,462 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:33:43,462 - INFO -     Accessing URL: https://www.independent.co.uk/arts-entertainment
+2025-05-18 11:33:46,177 - INFO - Selector 'div.article' matched 86 elements
+2025-05-18 11:33:46,370 - INFO - Selector 'div.content' matched 96 elements
+2025-05-18 11:33:46,526 - INFO - Found 81 unique article links
+2025-05-18 11:33:46,527 - INFO -       Scraping article: Simon Armitage: ‘It’s not my job to bring the nation together’
+2025-05-18 11:33:48,947 - INFO -       Successfully scraped article
+2025-05-18 11:33:48,947 - INFO -       Scraping article: All eight Mission: Impossible movies – ranked from worst to best
+2025-05-18 11:33:50,460 - INFO -       Successfully scraped article
+2025-05-18 11:33:50,461 - INFO -       Scraping article: Netflix’s Forever radically reimagines Judy Blume – but for the better
+2025-05-18 11:33:53,306 - INFO -       Successfully scraped article
+2025-05-18 11:33:53,307 - INFO -       Scraping article: How Twenty One Pilots became the streaming era’s biggest band
+2025-05-18 11:33:56,038 - INFO -       Successfully scraped article
+2025-05-18 11:33:56,039 - INFO -       Scraping article: At Eurovision, politics once more intrudes upon this former pop lark
+2025-05-18 11:33:59,508 - INFO -       Successfully scraped article
+2025-05-18 11:33:59,508 - INFO -   Scraping category: Sports
+2025-05-18 11:33:59,508 - INFO -     Accessing URL: https://www.independent.co.uk/sport
+2025-05-18 11:34:00,270 - INFO - Selector 'div.article' matched 85 elements
+2025-05-18 11:34:00,485 - INFO - Selector 'div.content' matched 111 elements
+2025-05-18 11:34:00,672 - INFO - Found 108 unique article links
+2025-05-18 11:34:00,674 - INFO -       Scraping article: Giro d’Italia Stage 9 preview: Map, standings and route to Siena
+2025-05-18 11:34:03,497 - INFO -       Successfully scraped article
+2025-05-18 11:34:03,498 - INFO -       Scraping article: Cycling
+2025-05-18 11:34:06,330 - INFO -       Successfully scraped article
+2025-05-18 11:34:06,331 - INFO -       Scraping article: Fisher suffers nightmare KO by Allen as score is settled in rematch
+2025-05-18 11:34:09,795 - INFO -       Successfully scraped article
+2025-05-18 11:34:09,795 - INFO -       Scraping article: Boxing
+2025-05-18 11:34:12,807 - INFO -       Successfully scraped article
+2025-05-18 11:34:12,808 - INFO -       Scraping article: Home hero Paolini makes Italian Open history with victory over Gauff
+2025-05-18 11:34:16,282 - INFO -       Successfully scraped article
+2025-05-18 11:34:16,283 - INFO - Scraping from CNN
+2025-05-18 11:34:16,284 - INFO -   Scraping category: Business
+2025-05-18 11:34:16,284 - INFO -     Accessing URL: https://edition.cnn.com/business
+2025-05-18 11:34:20,058 - INFO - Selector 'div.card' matched 66 elements
+2025-05-18 11:34:20,321 - INFO - Selector 'div.container__item' matched 66 elements
+2025-05-18 11:34:20,530 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 38 elements
+2025-05-18 11:34:20,631 - INFO - Found 60 unique article links
+2025-05-18 11:34:20,633 - INFO -       Scraping article: Trump tells Walmart to ‘eat the tariffs’ as retailer expects prices to increase
+2025-05-18 11:34:27,326 - INFO -       Successfully scraped article
+2025-05-18 11:34:27,326 - INFO -       Scraping article: Edward Berthelot/Getty Images
+2025-05-18 11:34:30,711 - INFO -       Successfully scraped article
+2025-05-18 11:34:30,711 - INFO -       Scraping article: J. David Ake/Getty Images
+2025-05-18 11:34:35,884 - INFO -       Successfully scraped article
+2025-05-18 11:34:35,884 - INFO -       Scraping article: Jakub Porzycki/NurPhoto/Shutterstock
+2025-05-18 11:34:40,888 - INFO -       Successfully scraped article
+2025-05-18 11:34:40,888 - INFO -       Scraping article: Damir Sagolj/Reuters
+2025-05-18 11:34:44,911 - INFO -       Successfully scraped article
+2025-05-18 11:34:44,911 - INFO -   Scraping category: Politics
+2025-05-18 11:34:44,911 - INFO -     Accessing URL: https://edition.cnn.com/politics
+2025-05-18 11:34:48,255 - INFO - Selector 'div.card' matched 54 elements
+2025-05-18 11:34:48,444 - INFO - Selector 'div.container__item' matched 54 elements
+2025-05-18 11:34:48,618 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 19 elements
+2025-05-18 11:34:48,670 - INFO - Found 54 unique article links
+2025-05-18 11:34:48,671 - INFO -       Scraping article: Getty Images, Reuters
+2025-05-18 11:34:51,826 - INFO -       Successfully scraped article
+2025-05-18 11:34:51,826 - INFO -       Scraping article: Former FBI Director James Comey interviewed by the US Secret Service
+2025-05-18 11:34:56,050 - INFO -       Successfully scraped article
+2025-05-18 11:34:56,056 - INFO -       Scraping article: Nonprofit leaders brace for possible targeting by the Trump administration after tax measure advances in Congress
+2025-05-18 11:34:59,553 - INFO -       Successfully scraped article
+2025-05-18 11:34:59,554 - INFO -       Scraping article: Device that makes semi-automatic rifles fire quicker allowed by Trump administration
+2025-05-18 11:35:03,709 - INFO -       Successfully scraped article
+2025-05-18 11:35:03,709 - INFO -       Scraping article: Social Security drops controversial anti-fraud review amid growing claims backlog
+2025-05-18 11:35:07,558 - INFO -       Successfully scraped article
+2025-05-18 11:35:07,559 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:35:07,559 - INFO -     Accessing URL: https://edition.cnn.com/entertainment
+2025-05-18 11:35:10,385 - INFO - Selector 'div.card' matched 31 elements
+2025-05-18 11:35:10,492 - INFO - Selector 'div.container__item' matched 31 elements
+2025-05-18 11:35:10,587 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 23 elements
+2025-05-18 11:35:10,640 - INFO - Found 31 unique article links
+2025-05-18 11:35:10,641 - INFO -       Scraping article: A24
+2025-05-18 11:35:14,292 - INFO -       Successfully scraped article
+2025-05-18 11:35:14,292 - INFO -       Scraping article: Eli Adé/Warner Bros.
+2025-05-18 11:35:19,814 - INFO -       Successfully scraped article
+2025-05-18 11:35:19,814 - INFO -       Scraping article: Mike Lawrie/Getty Images
+2025-05-18 11:35:23,959 - INFO -       Successfully scraped article
+2025-05-18 11:35:23,959 - INFO -       Scraping article: Jamie McCarthy/Getty Images
+2025-05-18 11:35:26,982 - INFO -       Successfully scraped article
+2025-05-18 11:35:26,982 - INFO -       Scraping article: Matt Baron/BEI/Shutterstock
+2025-05-18 11:35:29,042 - INFO -       Successfully scraped article
+2025-05-18 11:35:29,042 - INFO -   Scraping category: Sports
+2025-05-18 11:35:29,043 - INFO -     Accessing URL: https://edition.cnn.com/sport
+2025-05-18 11:35:30,536 - INFO - Selector 'div.card' matched 65 elements
+2025-05-18 11:35:30,822 - INFO - Selector 'div.container__item' matched 65 elements
+2025-05-18 11:35:31,102 - INFO - Selector 'div.container_lead-plus-headlines__item' matched 16 elements
+2025-05-18 11:35:31,158 - INFO - Found 65 unique article links
+2025-05-18 11:35:31,160 - INFO -       Scraping article: Alex Slitz/Getty Images
+2025-05-18 11:35:36,260 - INFO -       Successfully scraped article
+2025-05-18 11:35:36,261 - INFO -       Scraping article: Jared C. Tilton/Getty Images
+2025-05-18 11:35:39,713 - INFO -       Successfully scraped article
+2025-05-18 11:35:39,714 - INFO -       Scraping article: Justin Setterfield/The FA/Getty Images
+2025-05-18 11:35:42,310 - INFO -       Successfully scraped article
+2025-05-18 11:35:42,310 - INFO -       Scraping article: Kim Klement/USA Today Sports/Reuters
+2025-05-18 11:35:44,917 - INFO -       Successfully scraped article
+2025-05-18 11:35:44,918 - INFO -       Scraping article: Rob Carr/Getty Images
+2025-05-18 11:35:50,051 - INFO -       Successfully scraped article
+2025-05-18 11:35:50,051 - INFO - Scraping from BBC
+2025-05-18 11:35:50,052 - INFO -   Scraping category: Business
+2025-05-18 11:35:50,052 - INFO -     Accessing URL: https://www.bbc.com/news/business
+2025-05-18 11:35:50,837 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:35:50,951 - INFO - Found 26 unique article links
+2025-05-18 11:35:50,952 - INFO -       Scraping article: It's one of the most rowdy US sporting events. Here's what Preakness says about the economyThe Maryland tradition attracts a mix of socioeconomic classes. But this year, the tradition has been thrown into question.8 hrs agoUS & Canada
+2025-05-18 11:35:54,680 - INFO -       Successfully scraped article
+2025-05-18 11:35:54,680 - INFO -       Scraping article: US loses last perfect credit rating amid rising debtMoody's said successive US administrations had failed to reverse ballooning deficits and interest costs.1 day agoUS & Canada
+2025-05-18 11:35:57,958 - INFO -       Successfully scraped article
+2025-05-18 11:35:57,959 - INFO -       Scraping article: Doom: One of gaming's oldest series reckons with the challenges of 2025Doom is one of the most well-known series in gaming but it still has to work to find new players.1 day ago
+2025-05-18 11:35:59,502 - INFO -       Successfully scraped article
+2025-05-18 11:35:59,503 - INFO -       Scraping article: US proposes dropping Boeing criminal charge Families criticised the move, which would avoid a trial that is due to begin in June.2 days agoBusiness
+2025-05-18 11:36:03,185 - INFO -       Successfully scraped article
+2025-05-18 11:36:03,186 - INFO -       Scraping article: Why youth mobility and fishing are key issues ahead of UK-EU summitYouth mobility and fishing rights are key negotiating points between the UK and the EU as PM Keir Starmer attempts a post-Brexit "reset".1 day ago
+2025-05-18 11:36:05,329 - INFO -       Successfully scraped article
+2025-05-18 11:36:05,330 - INFO -   Scraping category: Politics
+2025-05-18 11:36:05,330 - INFO -     Accessing URL: https://www.bbc.com/news/politics
+2025-05-18 11:36:05,924 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:36:05,978 - INFO - Found 22 unique article links
+2025-05-18 11:36:05,979 - INFO -       Scraping article: UK Politics
+2025-05-18 11:36:09,481 - INFO -       Successfully scraped article
+2025-05-18 11:36:09,482 - INFO -       Scraping article: England
+2025-05-18 11:36:14,110 - INFO -       Successfully scraped article
+2025-05-18 11:36:14,110 - INFO -       Scraping article: N. Ireland
+2025-05-18 11:36:16,639 - INFO -       Successfully scraped article
+2025-05-18 11:36:16,639 - INFO -       Scraping article: Scotland
+2025-05-18 11:36:19,678 - INFO -       Successfully scraped article
+2025-05-18 11:36:19,678 - INFO -       Scraping article: Wales
+2025-05-18 11:36:23,368 - INFO -       Successfully scraped article
+2025-05-18 11:36:23,369 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:36:23,369 - INFO -     Accessing URL: https://www.bbc.com/news/entertainment_and_arts
+2025-05-18 11:36:24,390 - INFO - Selector 'article' matched 1 elements
+2025-05-18 11:36:24,569 - INFO - Found 28 unique article links
+2025-05-18 11:36:24,570 - INFO -       Scraping article: Eurovision 2025: Austria wins with last-minute vote, as the UK comes 19thAustrian counter-tenor JJ wins with Wasted Love, but the UK gets zero points from the public.9 hrs agoCulture
+2025-05-18 11:36:28,270 - INFO -       Successfully scraped article
+2025-05-18 11:36:28,270 - INFO -       Scraping article: Elton brands government 'losers' over AI copyright plansThe musician accuses the government of robbing young artists over its copyright law plans.3 hrs ago
+2025-05-18 11:36:32,057 - INFO -       Successfully scraped article
+2025-05-18 11:36:32,057 - INFO -       Scraping article: Doom: One of gaming's oldest series reckons with the challenges of 2025Doom is one of the most well-known series in gaming but it still has to work to find new players.1 day ago
+2025-05-18 11:36:35,935 - INFO -       Successfully scraped article
+2025-05-18 11:36:35,935 - INFO -       Scraping article: Mexico accuses MrBeast of exploiting Mayan pyramidsAuthorities say they never allowed Jimmy Donaldson to film at pyramid heritage sites for profit.1 day agoLatin America
+2025-05-18 11:36:40,229 - INFO -       Successfully scraped article
+2025-05-18 11:36:40,229 - INFO -       Scraping article: Rushdie attacker sentenced to 25 years in prisonSir Salman was on a New York lecture stage, when he was stabbed multiple times in the face and neck leaving him partially blinded.2 days agoUS & Canada
+2025-05-18 11:36:43,420 - INFO -       Successfully scraped article
+2025-05-18 11:36:43,421 - INFO -   Scraping category: Sports
+2025-05-18 11:36:43,422 - INFO -     Accessing URL: https://www.bbc.com/sport
+2025-05-18 11:36:45,354 - INFO - Found 0 unique article links
+2025-05-18 11:36:45,355 - INFO - Scraping from CBS
+2025-05-18 11:36:45,356 - INFO -   Scraping category: Business
+2025-05-18 11:36:45,356 - INFO -     Accessing URL: https://www.cbsnews.com/moneywatch/
+2025-05-18 11:36:47,018 - INFO - Selector 'article' matched 80 elements
+2025-05-18 11:36:47,177 - INFO - Found 54 unique article links
+2025-05-18 11:36:47,178 - INFO -       Scraping article: How much could you save in taxes if the GOP bill is signed into law?
+                  
+
+          The greatest benefits would go to high-income households, while low-income families would see a much more modest boost, analyses show.
+        
+
+May 16
+2025-05-18 11:36:49,879 - INFO -       Successfully scraped article
+2025-05-18 11:36:49,880 - INFO -       Scraping article: Moody's downgrades U.S. credit rating, citing rising government debt
+                  
+
+          Moody's lowered its rating on U.S. debt from Aaa to Aa1, pointing to sustained increase in federal debt and interest payments.
+        
+
+May 16
+2025-05-18 11:36:53,592 - INFO -       Successfully scraped article
+2025-05-18 11:36:53,592 - INFO -       Scraping article: Trump says U.S. will set tariff rates for most nations within weeks
+                  
+
+          President Trump said his administration "will be sending letters out" in two to three weeks to alert other nations of the tariff rates the U.S. will impose.
+        
+
+May 16
+2025-05-18 11:36:57,872 - INFO -       Successfully scraped article
+2025-05-18 11:36:57,873 - INFO -       Scraping article: Why there's no tax break for Social Security benefits in the new tax bill
+                  
+
+          Seniors are unlikely to get a break on paying taxes on their Social Security benefits, an issue that impacts more people each year.
+        
+
+May 15
+2025-05-18 11:37:01,450 - INFO -       Successfully scraped article
+2025-05-18 11:37:01,450 - INFO -       Scraping article: Home electricity bills forecast to reach a 12-year high this summer
+                  
+
+          High temperatures and rising electricity costs could boost home energy bills by 6% this summer, a new report says.
+        
+
+May 16
+2025-05-18 11:37:03,981 - INFO -       Successfully scraped article
+2025-05-18 11:37:03,981 - INFO -   Scraping category: Politics
+2025-05-18 11:37:03,982 - INFO -     Accessing URL: https://www.cbsnews.com/politics/
+2025-05-18 11:37:05,673 - INFO - Selector 'article' matched 84 elements
+2025-05-18 11:37:05,828 - INFO - Found 43 unique article links
+2025-05-18 11:37:05,830 - INFO -       Scraping article: Rubio says U.S. will find out if Russia is "tapping us along"
+                  
+
+          Secretary of State Marco Rubio told "Face the Nation" he believes talks to end the war in Ukraine will only progress if President Trump and Russian President Vladimir Putin meet in person.
+        
+
+11H ago
+2025-05-18 11:37:08,810 - INFO -       Successfully scraped article
+2025-05-18 11:37:08,811 - INFO -       Scraping article: Walz calls Trump a "tyrant" who abuses power and violates rule of law
+                  
+
+          Minnesota Gov. Tim Walz, the vice presidential nominee in 2024, made his remarks at the University of Minnesota's law school commencement ceremony.
+        
+
+14H ago
+2025-05-18 11:37:11,780 - INFO -       Successfully scraped article
+2025-05-18 11:37:11,780 - INFO -       Scraping article: Transcript: Secretary of State Marco Rubio on "Face the Nation with Margaret Brennan," May 18, 2025
+                  
+
+          The following is the transcript of an interview with Secretary of State Marco Rubio that will air on "Face the Nation with Margaret Brennan" on May 18, 2025.
+        
+
+14H ago
+2025-05-18 11:37:14,547 - INFO -       Successfully scraped article
+2025-05-18 11:37:14,547 - INFO -       Scraping article: Trump warns Walmart against raising prices, tells company to "eat the tariffs"
+                  
+
+          Walmart this week warned​ that everything from bananas to children's car seats could increase in price despite the softer tariffs on China.
+        
+
+8H ago
+2025-05-18 11:37:17,158 - INFO -       Successfully scraped article
+2025-05-18 11:37:17,158 - INFO -       Scraping article: Combat sport clubs used to recruit for white nationalist hate group, report says
+                  
+
+          Patriot Front and other white nationalist groups are fueling the expansion of extremist groups in the U.S., and control at least a dozen clubs nationwide.
+        
+
+15H ago
+2025-05-18 11:37:20,368 - INFO -       Successfully scraped article
+2025-05-18 11:37:20,369 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:37:20,369 - INFO -     Accessing URL: https://www.cbsnews.com/entertainment/
+2025-05-18 11:37:21,972 - INFO - Selector 'article' matched 84 elements
+2025-05-18 11:37:22,133 - INFO - Found 40 unique article links
+2025-05-18 11:37:22,134 - INFO -       Scraping article: After Springsteen calls him "treasonous," Trump criticizes rock star's skin
+                  
+
+          Bruce Springsteen, a long-standing and prominent supporter of Democratic presidential candidates, made his remarks at a concert in Manchester, England.
+        
+
+May 16
+2025-05-18 11:37:25,215 - INFO -       Successfully scraped article
+2025-05-18 11:37:25,215 - INFO -       Scraping article: Chris Brown arrested in U.K. for alleged attack at London club in 2023
+                  
+
+          Singer Chris Brown has been arrested in England for allegedly hitting someone with a bottle in a London nightclub in 2023.
+        
+
+May 15
+2025-05-18 11:37:27,636 - INFO -       Successfully scraped article
+2025-05-18 11:37:27,637 - INFO -       Scraping article: $10,000 treasure chest buried in San Francisco reportedly found
+                  
+
+          A mysterious treasure chest that was buried in San Francisco by an anonymous group, containing gold and artifacts, has reportedly been found.
+        
+
+May 15
+2025-05-18 11:37:31,092 - INFO -       Successfully scraped article
+2025-05-18 11:37:31,092 - INFO -       Scraping article: Tiny Desk Radio goes behind the scenes of NPR concert series
+                  
+
+          Every month, 20 million people listen to NPR's Tiny Desk concert series, which has brought in major stars like Alicia Keys, Taylor Swift and Doechii.
+        
+
+May 15
+2025-05-18 11:37:34,085 - INFO -       Successfully scraped article
+2025-05-18 11:37:34,085 - INFO -       Scraping article: Blake Shelton returns to music with Gwen Stefani duet and talks new TV series
+                  
+
+          Blake Shelton is back with his 13th studio album, "For Recreational Use Only," featuring a duet with wife Gwen Stefani, and a new CBS singing competition show called "The Road."
+        
+
+May 15
+2025-05-18 11:37:37,388 - INFO -       Successfully scraped article
+2025-05-18 11:37:37,388 - INFO -   Scraping category: Sports
+2025-05-18 11:37:37,388 - INFO -     Accessing URL: https://www.cbssports.com/
+2025-05-18 11:37:49,302 - INFO - Found 0 unique article links
+2025-05-18 11:37:49,304 - INFO - Scraping from The Telegraph
+2025-05-18 11:37:49,304 - INFO -   Scraping category: Business
+2025-05-18 11:37:49,304 - INFO -     Accessing URL: https://www.telegraph.co.uk/business/
+2025-05-18 11:37:50,812 - INFO - Selector 'article' matched 45 elements
+2025-05-18 11:37:50,927 - INFO - Found 35 unique article links
+2025-05-18 11:37:50,928 - INFO -       Scraping article: Reeves is fiddling with Isas while Rome burns
+2025-05-18 11:37:53,782 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/reeves-is-fiddling-while-rome-burns/, status code: 403
+2025-05-18 11:37:53,783 - WARNING -       Article content too short, skipping
+2025-05-18 11:37:53,783 - INFO -       Scraping article: Matthew Lynn
+Now even Greenpeace is worried about North Sea oil jobs
+2025-05-18 11:37:55,307 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/now-even-greenpeace-is-worried-about-north-sea-oil-jobs/, status code: 403
+2025-05-18 11:37:55,308 - WARNING -       Article content too short, skipping
+2025-05-18 11:37:55,308 - INFO -       Scraping article: The critical weaknesses in Starmer’s EU defence pact
+2025-05-18 11:37:58,296 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/the-critical-weaknesses-in-starmers-eu-defence-pact/, status code: 403
+2025-05-18 11:37:58,297 - WARNING -       Article content too short, skipping
+2025-05-18 11:37:58,297 - INFO -       Scraping article: Andy Burnham closes in on millions from Reeves to tackle worklessness
+2025-05-18 11:38:00,327 - WARNING - Failed to access article https://www.telegraph.co.uk/business/2025/05/17/andy-burnham-closes-millions-reeves-tackle-worklessness/, status code: 403
+2025-05-18 11:38:00,328 - WARNING -       Article content too short, skipping
+2025-05-18 11:38:00,328 - INFO -       Scraping article: Hundreds of Poundland stores to close under rescue deal
+2025-05-18 11:38:02,893 - INFO -       Successfully scraped article
+2025-05-18 11:38:02,894 - INFO -   Scraping category: Politics
+2025-05-18 11:38:02,894 - INFO -     Accessing URL: https://www.telegraph.co.uk/news/
+2025-05-18 11:38:03,187 - WARNING - Failed to access https://www.telegraph.co.uk/news/, status code: 403
+2025-05-18 11:38:03,187 - INFO -   Scraping category: Arts/Culture/Celebrities
+2025-05-18 11:38:03,188 - INFO -     Accessing URL: https://www.telegraph.co.uk/lifestyle/
+2025-05-18 11:38:03,410 - WARNING - Failed to access https://www.telegraph.co.uk/lifestyle/, status code: 403
+2025-05-18 11:38:03,411 - INFO -   Scraping category: Sports
+2025-05-18 11:38:03,411 - INFO -     Accessing URL: https://www.telegraph.co.uk/sport/
+2025-05-18 11:38:04,893 - INFO - Selector 'article' matched 52 elements
+2025-05-18 11:38:05,067 - INFO - Found 1 unique article links
+2025-05-18 11:38:05,068 - INFO -       Scraping article: Slap fighting is ‘barbaric’... and built for social media
+2025-05-18 11:38:07,362 - WARNING - Failed to access article https://www.telegraph.co.uk/sport/2025/05/18/slap-fighting-barbaric-combat-sport-built-for-tiktok/, status code: 403
+2025-05-18 11:38:07,363 - WARNING -       Article content too short, skipping
+2025-05-18 11:38:07,408 - INFO - Saved 71 articles to news_data/all_articles.csv
+2025-05-18 11:38:07,408 - INFO - Scraping completed

@@ -180,7 +180,7 @@ def setup_templates():
             f.write("""<!DOCTYPE html>
 <html>
 <head>
-    <title>Zimbabwe News Article Clusters</title>
+    <title>News Article Clusters</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <style>
         .cluster-card {
@@ -333,7 +333,7 @@ def run_web_application():
 
 def main():
     """Main function to run the entire workflow"""
-    print_header("Zimbabwe News Article Clustering - Complete Workflow")
+    print_header("News Article Clustering - Complete Workflow")
 
     print("""This script will guide you through the entire process:
 1. Check Python version

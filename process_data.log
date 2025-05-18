@@ -26,3 +26,17 @@
 2025-05-10 00:37:45,868 - INFO - Created cluster 3 for category 'Sports' with 10 articles
 2025-05-10 00:37:45,868 - INFO - Saving clusters to static/cluster_data.json
 2025-05-10 00:37:45,870 - INFO - Successfully saved 4 clusters to static/cluster_data.json
+2025-05-18 11:38:10,160 - INFO - ✓ Found news_data/all_articles.csv (Size: 337.76 KB)
+2025-05-18 11:38:10,192 - INFO - Successfully loaded 71 articles from news_data/all_articles.csv
+2025-05-18 11:38:10,200 - INFO - Sample of loaded data:
+2025-05-18 11:38:10,201 - INFO - Article 1: BlackRock’s billions show it’s not all gloom for UK business from Independent
+2025-05-18 11:38:10,202 - INFO - Article 2: Why Tesla’s fall forced Musk to step back from DOGE from Independent
+2025-05-18 11:38:10,203 - INFO - Article 3: Business from Independent
+2025-05-18 11:38:10,204 - INFO - Creating clusters from scraped data...
+2025-05-18 11:38:10,206 - INFO - Found 4 unique categories: Business, Politics, Arts/Culture/Celebrities, Sports
+2025-05-18 11:38:10,216 - INFO - Created cluster 0 for category 'Business' with 21 articles
+2025-05-18 11:38:10,221 - INFO - Created cluster 1 for category 'Politics' with 20 articles
+2025-05-18 11:38:10,225 - INFO - Created cluster 2 for category 'Arts/Culture/Celebrities' with 20 articles
+2025-05-18 11:38:10,229 - INFO - Created cluster 3 for category 'Sports' with 10 articles
+2025-05-18 11:38:10,230 - INFO - Saving clusters to static/cluster_data.json
+2025-05-18 11:38:10,246 - INFO - Successfully saved 4 clusters to static/cluster_data.json
