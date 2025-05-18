@@ -194,7 +194,7 @@ def setup_templates():
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-5">Zimbabwe News Article Clusters</h1>
+        <h1 class="text-center mb-5">News Article Clusters</h1>
 
         <div class="row">
             <div class="col-md-10 offset-md-1">
@@ -266,7 +266,7 @@ def setup_templates():
             f.write("""<!DOCTYPE html>
 <html>
 <head>
-    <title>Cluster - Zimbabwe News Articles</title>
+    <title>Cluster - News Articles</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
